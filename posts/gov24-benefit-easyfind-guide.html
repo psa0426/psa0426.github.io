@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src data:; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;">
+  <meta name="referrer" content="no-referrer">
+  
+  <title>정부24 혜택알리미 간편찾기 사용법 | 복지혜택 찾기와 AI 정리</title>
+  <meta name="description" content="정부24 혜택알리미 간편찾기로 복지혜택을 찾는 화면 순서와 결과 읽는 법을 안내합니다. 많은 후보를 분야별로 정리하고 대상·신청 기간을 확인할 질문을 만드는 AI 프롬프트도 제공합니다.">
+  <meta name="keywords" content="정부24 혜택알리미, 간편찾기, 복지혜택 찾기, 받을 수 있는 정부지원금 조회, 사회복지사 AI 활용">
+  <meta name="author" content="psa">
+  <link rel="canonical" href="https://psa0426.github.io/posts/gov24-benefit-easyfind-guide.html">
+<meta property="og:url" content="https://psa0426.github.io/posts/gov24-benefit-easyfind-guide.html">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://psa0426.github.io/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="정부24 혜택알리미 간편찾기 사용법 | 복지혜택 찾기와 AI 정리">
+<meta property="og:description" content="정부24 혜택알리미 간편찾기로 복지혜택을 찾는 화면 순서와 결과 읽는 법을 안내합니다. 많은 후보를 분야별로 정리하고 대상·신청 기간을 확인할 질문을 만드는 AI 프롬프트도 제공합니다.">
+<meta property="og:site_name" content="사회복지사의 AI 노하우">
+<meta property="og:locale" content="ko_KR">
+  <link rel="icon" href="data:,">
+  <style>:root{color-scheme:light;--paper:#f7f6f0;--ink:#203b32;--muted:#56675d;--line:#d6dfd6;--accent:#a65232;--white:#fffefa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.8;overflow-wrap:anywhere}a{color:inherit;text-underline-offset:.24em}a:hover{color:var(--accent)}a:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.skip-link{position:absolute;top:-100px;left:16px;background:var(--ink);color:white;padding:10px 16px;z-index:5}.skip-link:focus{top:10px}.site-header{max-width:1184px;margin:auto;padding:26px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:14px;font-size:18px;font-weight:700;text-decoration:none;line-height:1.45}.brand-mark{display:grid;place-items:center;width:42px;height:48px;background:var(--ink);color:var(--paper);border-radius:3px 15px 3px 3px;font:italic 27px Georgia,serif;flex-shrink:0}.brand small{display:block;font-size:9px;letter-spacing:.18em;margin-top:5px;font-weight:400}nav{display:flex;align-items:center;gap:24px;font-size:13px}nav a{text-decoration:none}.draft-badge{border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:11px;white-space:nowrap}main{max-width:1120px;margin:auto;padding:0 32px;min-width:0}.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--accent);font-weight:700}.hero{padding:64px 0 46px;display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:end}.hero h1{font-size:clamp(30px,4.3vw,52px);line-height:1.35;letter-spacing:-.055em;margin:14px 0 0;word-break:keep-all}.hero p{color:var(--muted);font-size:15px;margin:0}.hero .subline{margin-top:24px;font-size:14px}.section-label{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--ink);padding:16px 0;margin-top:24px;font-size:12px;letter-spacing:.04em}.section-label h2{font-size:13px;margin:0}.note-card{display:grid;grid-template-columns:160px 1fr;gap:36px;border:1px solid var(--line);background:var(--white);padding:36px;margin:8px 0 48px}.note-number{font:italic 64px Georgia,serif;line-height:1;color:#aebcaf}.note-meta{font-size:11px;color:var(--muted);margin-top:18px}.note-card h3{margin:8px 0 16px;font-size:25px;line-height:1.5;letter-spacing:-.04em;word-break:keep-all}.note-card h3 a{text-decoration:none}.note-card p{font-size:14px;color:var(--muted);margin:0 0 20px}.read-link{font-size:13px;font-weight:700}.note-category{font-size:11px;color:var(--accent)}.principles{border-top:1px solid var(--line);padding:22px 0 40px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}.site-footer{max-width:1120px;margin:42px auto 0;padding:24px 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:18px;font-size:11px;color:var(--muted)}.site-footer p{margin:0}.article-layout{max-width:800px;margin:0 auto;padding:38px 0 8px;min-width:0}.back-link{font-size:12px}.article-kicker{margin-top:36px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.article-body{min-width:0;font-size:16px}.article-body h1{font-size:clamp(29px,3.3vw,42px);line-height:1.45;letter-spacing:-.055em;word-break:keep-all;margin:20px 0 30px}.article-body h2{font-size:24px;line-height:1.55;letter-spacing:-.035em;word-break:keep-all;margin:42px 0 18px}.article-body h3{font-size:18px;margin:28px 0 14px}.article-body p{margin:18px 0}.article-body strong{font-weight:750;color:#173c2f}.article-body blockquote{margin:24px 0;padding:10px 24px;border-left:3px solid #7e9984;background:#edf1e9;color:#314b3d}.article-body blockquote p{margin:10px 0}.article-body ul,.article-body ol{padding-left:26px}.article-body li{padding-left:4px;margin:10px 0}.article-body hr{border:0;border-top:1px solid var(--line);margin:38px 0}.table-note{font-size:11px;color:var(--muted);margin-bottom:8px!important}.table-scroll{display:block;width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--line);background:var(--white);border-radius:4px}.table-scroll table{width:100%;min-width:640px;border-collapse:collapse;font-size:14px;line-height:1.65}.table-scroll th,.table-scroll td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--line);overflow-wrap:break-word}.table-scroll th{background:#e8eee6;font-size:12px;color:#2e4c3c}.table-scroll tr:last-child td{border-bottom:0}.table-scroll td:first-child{font-weight:700;width:23%}.table-scroll td:nth-child(2){width:42%}.task-list{padding:14px 20px!important;list-style:none;background:var(--white);border:1px solid var(--line);border-radius:4px}.task-list li{padding:0;margin:12px 0}.task-list label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}.task-list input{width:18px;height:18px;accent-color:var(--ink);flex-shrink:0;margin-top:6px}.article-body a{overflow-wrap:anywhere}.article-body em{font-size:13px;color:var(--muted)}.editor-note{margin:40px 0 0;padding:24px;border-top:2px solid var(--ink);background:#eaf0e7;font-size:13px}.editor-note h2{font-size:15px;margin:0 0 12px}.editor-note p{margin:10px 0}.editor-note .pending{font-size:12px;color:var(--muted)}
+@media(max-width:640px){.site-header{padding:18px 20px;align-items:flex-start;gap:10px}.brand{font-size:14px;gap:10px}.brand small{font-size:7px}.brand-mark{width:32px;height:39px;font-size:22px}nav{gap:8px;flex-direction:column;align-items:flex-end;font-size:11px}.draft-badge{font-size:10px;padding:2px 8px}main{padding:0 20px}.hero{padding:38px 0 24px;grid-template-columns:1fr;gap:24px}.hero h1{font-size:32px}.hero p{font-size:14px}.note-card{grid-template-columns:1fr;gap:18px;padding:24px}.note-number{font-size:36px}.card-side{display:flex;justify-content:space-between;align-items:center}.note-meta{margin:0}.note-card h3{font-size:22px}.principles{display:block}.principles span{display:block;margin:6px 0}.site-footer{margin-top:18px;padding:22px 20px;display:block}.site-footer p+p{margin-top:6px}.article-layout{padding-top:24px}.article-kicker{margin-top:28px}.article-body{font-size:15px}.article-body h2{font-size:22px}.article-body blockquote{padding:8px 16px}.editor-note{padding:20px}.table-scroll th,.table-scroll td{padding:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* A2 navigation; existing table containment stays. */
+.header-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px;min-width:0}nav{flex-wrap:wrap;gap:12px 20px}.brand{min-width:0}.brand-mark{font:700 19px "Malgun Gothic",sans-serif}.site-footer nav{font-size:11px;align-content:start}.preview-settings{margin-top:8px!important}.contact-value{padding:18px;border:1px solid var(--line);background:var(--white);font-weight:700}
+@media(max-width:640px){.site-header{flex-direction:column;gap:16px}.header-links{align-items:flex-start;width:100%}nav{flex-direction:row;align-items:center;gap:10px 16px}.brand{font-size:16px}.brand small{font-size:9px}.brand-mark{font-size:17px}.site-footer nav{margin-top:18px}}
+
+/* Literal prompts: selectable text, wrapping at mobile widths. */
+.prompt-block{margin:24px 0;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:4px;background:#edf1e9;padding:18px 20px}.prompt-block figcaption{font-weight:700;margin-bottom:12px}.prompt-block pre,.prompt-block code{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0}.prompt-block pre{margin:0}.prompt-block code{user-select:text}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로 가기</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">AI</span><span>사회복지사의 AI 노하우<small>사회복지 실무와 AI</small></span></a>
+    <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
+  </header>
+  <main id="main" tabindex="-1"><div class="article-layout"><a class="back-link" href="../index.html">← 모든 글</a>
+<div class="article-kicker"><span>AI 활용 기록 01 · psa</span></div>
+<article class="article-body"><h1 id="section-1">정부24 혜택알리미 간편찾기 사용법: 찾은 혜택을 AI로 정리하기</h1>
+<p>“제가 받을 수 있는 게 뭐가 있어요?”</p>
+<p>김○○ 님(가상 인물, 60대 중반, 혼자 사는 어르신, 가구 소득 낮음)이 상담 중 묻습니다. 실무자는 생활비가 걱정되는지, 집에서 불편한 점이 있는지 이야기를 듣습니다. 필요한 지원을 떠올려도 관련 사업을 한꺼번에 살펴보려면 어디서 시작할지 막막합니다.</p>
+<p><em>등장인물의 나이 등은 실제와 다른 허구입니다.</em></p>
+<p>이럴 때 함께 열어 볼 화면이 정부24 혜택알리미의 <strong>간편찾기</strong>입니다. “받을 수 있는 정부지원금 조회”를 찾는 분에게도 출발점을 알려 주기 좋습니다. 먼저 조건에 맞춰 목록을 보고, 관심 있는 사업의 상세 내용을 읽는 순서로 진행해 보세요.</p>
+<p>정부24 메인 메뉴에서 <strong>혜택알리미 → 간편찾기</strong>를 누릅니다. 혜택알리미 아래에는 혜택알리미 홈, 나의 혜택, 간편찾기, 전체 혜택이 있습니다. 이번에는 간편찾기 화면을 따라갑니다.</p>
+<h2 id="section-2">시작 화면에서 개인(가족)을 고르세요</h2>
+<p>첫 화면의 질문은 “어떤 상황에 맞는 혜택을 찾으세요?”입니다. 개인(가족), 소상공인(자영업자), 법인(기업) 중에서 고릅니다. 이용자와 가족의 복지혜택을 살펴보는 이번 예시에서는 <strong>개인(가족)</strong>을 선택합니다.</p>
+<p>상담 중 이용자 정보를 정부24에 입력할 때는 기관의 절차를 따릅니다. 화면을 함께 보더라도 입력할 정보부터 이용자와 확인하고 진행하세요.</p>
+<h2 id="section-3">1단계/3단계: 생년월일·소득 수준·거주지를 입력하세요</h2>
+<p>이 단계에서는 생년월일과 성별, 본인 또는 가구의 소득 수준, 거주지 시도·시군구를 입력합니다. 모두 필수 항목입니다. 먼저 생년월일과 성별을 입력하고, 소득 구간을 선택한 다음 거주지를 고르는 순서로 읽어 가면 됩니다.</p>
+<p>소득 수준은 중위소득 구간으로 나뉩니다. 화면에는 <strong>0–50%, 51–75%, 76–100%, 101–200%, 200% 초과</strong>가 표시됩니다. 소득 구간이 낯설면 화면의 <strong>기준중위 소득표 자세히 보기</strong> 링크를 열어 보세요. 상담자의 인상만으로 “이 정도면 낮겠지” 하고 고르기보다 입력할 구간을 확인하는 데 시간을 쓰는 편이 좋습니다.</p>
+<p>거주지는 시도와 시군구까지 고릅니다. 이후 결과를 읽을 때도 이 거주 조건을 기억해 두세요. 목록에 나타난 사업의 대상 지역과 대조할 때 필요합니다.</p>
+<h2 id="section-4">2단계/3단계: 현재 상황에 해당하는 항목을 고르세요</h2>
+<p>다음 화면에는 “나의 상황에 해당하는 항목을 선택해 주세요.”가 나옵니다. <strong>묶음별로 최대 2개씩</strong> 고릅니다. 화면 전체에서 두 개만 고른다는 뜻으로 읽지 않도록 묶음 경계를 보면서 선택하세요.</p>
+<p>묶음 이름은 다음과 같습니다.</p>
+<ul><li>가족을 돌보거나 아이를 키워요</li><li>생활비·지원이 필요해요</li><li>내 직업·업종에 맞는 지원이 필요해요</li><li>내 현재 상황에 맞는 지원을 찾고 있어요</li><li>장애가 있거나 시설을 이용해요</li><li>의료지원이 필요해요</li><li>모두 이용할 수 있어요</li></ul>
+<p>항목에는 <strong>혼자(어르신) 살고 있어요</strong>, <strong>65세 이상이에요</strong>, <strong>저소득 가구예요</strong>, <strong>기초생활수급자예요</strong> 등이 보입니다. 집이 없어요, 주거가 취약해요, 연금을 받고 있어요 같은 항목도 있습니다. 의료 관련 항목의 “만성질환자에요”는 화면에 표시된 표기 그대로입니다.</p>
+<p>이용자의 말을 듣고 해당하는 항목을 함께 고릅니다. 혼자 산다는 이유로 다른 조건까지 한꺼번에 선택하지는 마세요. 예시 인물이 60대 중반이라고 해도 “65세 이상이에요”를 바로 고르기보다 실제로 입력할 나이를 확인해야 합니다.</p>
+<h2 id="section-5">3단계/3단계: 개수보다 사업의 내용을 읽으세요</h2>
+<p>결과 화면 위에는 선택 조건 요약과 결과 개수가 나옵니다. 먼저 내가 입력한 조건이 맞는지 봅니다. 정렬에는 <strong>최근 등록순</strong>이 표시됩니다. 각 혜택에는 이름과 한 줄 설명이 있고, <strong>내용보기</strong> 또는 <strong>타 사이트 이동</strong>이 붙습니다. 아래에는 전체 혜택보기도 있습니다.</p>
+<p>가족 정보를 등록하고 동의를 받으면 가족에게 맞는 혜택도 함께 조회할 수 있다는 안내도 보입니다. 지금 읽을 목록과 별개로, 어떤 안내가 화면에 있는지 살펴두면 좋습니다.</p>
+<p>가상 조건으로 조회했을 때를 보겠습니다. <strong>64세 남성 / 중위소득 0–50% / 경기도의 한 시 / 혼자(어르신) 살고 있어요·저소득 가구예요</strong>를 선택한 조회에서는 <strong>98건</strong>이 나왔습니다. 앞의 상담 장면과 같은 사람이 실제 신청한 결과가 아니라 가상 조건의 조회 결과입니다.</p>
+<p>목록에는 주택 개보수, 반려동물 진료비, 문화시설 무료관람, 주택화재보험, 노인 안검진, 문화누리카드, 저축 지원 등이 섞여 있었습니다. 당장 고민하는 생활비와는 다른 분야도 보입니다. 결과 개수만 보고 지원금이 그만큼 나온다고 설명하면 목록의 의미가 달라집니다.</p>
+<p>또 <strong>선택한 시군구 밖 기관이 운영하는 사업도 보였습니다.</strong> 다른 지역 기관의 이름이 있다고 바로 제외하거나, 목록에 있다는 이유로 신청할 수 있다고 단정하지 않습니다. 내용보기를 열어 대상 지역부터 확인하세요. 타 사이트 이동이 붙은 항목은 연결된 안내에서 내용을 읽습니다.</p>
+<p>이 목록은 <strong>확인할 후보 목록</strong>으로 받아들이면 좋습니다. 사업마다 대상, 소득 기준, 신청 기간, 신청 방법을 읽고 이용자에게 필요한 정보인지 판단합니다. 제목과 한 줄 설명만으로 부족한 내용은 질문으로 남기세요. 원문에서 무엇을 대조할지는 <a href="social-worker-ai-welfare-information-check.html">AI 복지정보를 안내하기 전에 확인할 내용</a>에서도 살펴볼 수 있습니다.</p>
+<h2 id="section-6">결과가 너무 많으면 전체 혜택에서 사업명을 검색하세요</h2>
+<p>목록을 끝까지 읽다가 길을 잃기 쉽습니다. 먼저 이용자가 관심을 보인 분야나 사업명을 메모해 보세요. 집수리가 급한지, 의료 관련 지원이 필요한지 이야기하면 읽어 볼 후보를 고르는 데 도움이 됩니다.</p>
+<p>그다음 <strong>전체 혜택</strong> 화면의 검색창에서 관심 있는 사업명을 검색해 보세요. 이 화면에는 검색창과 <strong>고급검색</strong>, <strong>가나다순</strong> 정렬이 있습니다. 조회일 기준 전체 <strong>10,949개</strong>가 표시됐습니다. 전체 개수는 사이트의 목록 규모이며, 앞서 살펴본 가상 조건의 결과 개수와는 다릅니다.</p>
+<p>항목마다 신청 <strong>기간</strong>이 보이고, <strong>바로 신청하기</strong>, <strong>내용보기</strong>, <strong>타 사이트 이동</strong>이 붙습니다. 기간을 보고 관심 있는 항목의 상세 안내로 들어가세요. 바로 신청하기가 보이더라도 대상과 신청 방법을 읽는 순서를 생략하지 않는 편이 좋습니다.</p>
+<p>검색할 말을 바꾸거나 사업명을 골라 다시 읽는 일은 상담을 정리하는 과정이기도 합니다. 많은 결과를 전부 안내하기보다, 지금의 질문과 연결되는 후보를 먼저 살펴보세요.</p>
+<h2 id="section-7">AI에는 사업명과 한 줄 설명만 주고 정리를 맡기세요</h2>
+<p>후보가 많으면 AI에게 분야별로 묶어 달라고 요청할 수 있습니다. 입력할 것은 결과 화면의 <strong>사업명과 한 줄 설명만</strong>입니다. 이용자의 생년월일, 소득, 거주지 같은 조회 조건은 넣지 않습니다. 어떤 정보를 덜어낼지 헷갈리면 <a href="social-worker-generative-ai-privacy-checklist.html">첫 글의 개인정보 체크리스트</a>를 함께 보세요.</p>
+<p>아래 요청을 복사하고 마지막에 후보 목록을 붙입니다. AI에게 받을 답은 자격 판정이 아니라, 목록을 읽을 순서와 상세 안내에서 확인할 질문입니다.</p>
+<figure class="prompt-block"><figcaption>복사용 프롬프트</figcaption><pre><code>아래는 정부24 결과 화면에서 옮긴 사업명과 한 줄 설명이다. 이용자의 개인정보와 조회 조건은 제공하지 않는다.
+
+이 목록을 주거·생활비·의료·문화·금융 등 분야별로 묶어 줘. 분류가 애매하면 별도로 표시해 줘.
+
+각 사업마다 &#x27;내용보기&#x27;에서 확인할 질문을 만들어 줘. 대상 지역, 소득 기준, 신청 기간, 신청 방법을 확인하는 질문을 포함해 줘. 질문의 답이 목록에 없으면 추측하지 말고 확인할 내용으로 남겨 줘.
+
+목록에 없는 사업을 추가하지 마. 개인의 지원 자격을 판정하지 마. 한 줄 설명만으로 신청 가능 여부나 지원 내용을 확정하지 마. 사업명과 설명의 뜻을 바꾸지 마.
+
+사업명과 한 줄 설명:
+(결과 화면의 사업명과 한 줄 설명만 붙여 넣기)</code></pre></figure>
+<p>AI가 묶은 분야가 적절한지, 원래 목록에서 빠진 사업이 없는지 대조합니다. 질문을 잘 만들었는지도 상세 안내를 읽으면서 확인하세요. 답을 모르는 칸은 AI에게 채우게 하기보다 사업 안내에서 찾아 적습니다.</p>
+<h2 id="section-8">이용자에게는 다음에 할 일을 함께 말해 주세요</h2>
+<p>상담을 마칠 때는 “조회해 보니 받을 수 있는 지원이 많네요”보다 확인한 범위를 말해 보세요.</p>
+<p>“함께 살펴볼 만한 사업이 나왔어요. 관심 있는 것부터 대상 지역과 신청 기간을 확인해 볼게요.”</p>
+<p>“이 목록만으로 받을 수 있다고 정해진 것은 아니에요. 상세 안내를 읽고 신청 방법까지 함께 알아보겠습니다.”</p>
+<p>검색 화면을 열어 드리는 데서 끝내지 않고, 어떤 후보를 먼저 읽을지 함께 정하면 이용자도 다음 순서를 잡기 쉽습니다. 간편찾기로 시작하고 상세 안내로 확인하는 흐름을 한 번 같이 해 보세요.</p>
+<h2 id="section-9">참고 자료</h2>
+<ul><li><a href="https://plus.gov.kr/portal/benefitV2/benefitEasyFind" rel="noreferrer noopener" aria-label="정부24 혜택알리미 간편찾기 — https://plus.gov.kr/portal/benefitV2/benefitEasyFind">정부24 혜택알리미 간편찾기</a> — 2026-10-08 확인.</li></ul>
+<h2 id="section-10">작성 안내</h2>
+<p>이 글의 화면 설명과 숫자는 <strong>2026년 10월 8일 확인 기준</strong>이며 구성과 숫자는 바뀔 수 있습니다. 확인 당시 간편찾기는 로그인하지 않고 3단계 결과까지 조회할 수 있었습니다. 상담 장면과 AI 프롬프트는 설명용 예시입니다. 개별 사업의 신청 자격을 판정하거나 AI 실행 결과를 제시하는 글은 아닙니다.</p>
+<aside class="editor-note" aria-labelledby="editor-title"><h2 id="editor-title">작성과 검수 안내</h2><p>AI의 도움을 받아 작성하고 psa가 검수했습니다. 글 속 사례는 허구이며 실제 이용인·시설 정보를 쓰지 않습니다.</p></aside></article></div></main>
+  <footer class="site-footer"><div><p>사회복지사의 AI 노하우 · psa</p><p>실무에 쓰는 AI, 함께 확인하는 노하우.</p></div><nav aria-label="하단 메뉴"><a href="../index.html">글 목록</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></footer>
+</body>
+</html>

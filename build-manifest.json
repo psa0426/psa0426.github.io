@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 3,
+  "posts": 4,
   "files": [
     "404.html",
     "_headers",
@@ -8,6 +8,7 @@
     "contact.html",
     "feed.xml",
     "index.html",
+    "posts/gov24-benefit-easyfind-guide.html",
     "posts/social-worker-ai-program-notice.html",
     "posts/social-worker-ai-welfare-information-check.html",
     "posts/social-worker-generative-ai-privacy-checklist.html",

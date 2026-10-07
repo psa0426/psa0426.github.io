@@ -27,6 +27,9 @@
 /* A2 navigation; existing table containment stays. */
 .header-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px;min-width:0}nav{flex-wrap:wrap;gap:12px 20px}.brand{min-width:0}.brand-mark{font:700 19px "Malgun Gothic",sans-serif}.site-footer nav{font-size:11px;align-content:start}.preview-settings{margin-top:8px!important}.contact-value{padding:18px;border:1px solid var(--line);background:var(--white);font-weight:700}
 @media(max-width:640px){.site-header{flex-direction:column;gap:16px}.header-links{align-items:flex-start;width:100%}nav{flex-direction:row;align-items:center;gap:10px 16px}.brand{font-size:16px}.brand small{font-size:9px}.brand-mark{font-size:17px}.site-footer nav{margin-top:18px}}
+
+/* Literal prompts: selectable text, wrapping at mobile widths. */
+.prompt-block{margin:24px 0;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:4px;background:#edf1e9;padding:18px 20px}.prompt-block figcaption{font-weight:700;margin-bottom:12px}.prompt-block pre,.prompt-block code{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0}.prompt-block pre{margin:0}.prompt-block code{user-select:text}
 </style>
 </head>
 <body>
@@ -36,7 +39,7 @@
     <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
   </header>
   <main id="main" tabindex="-1"><div class="article-layout"><a class="back-link" href="../index.html">← 모든 글</a>
-<div class="article-kicker"><span>AI 활용 기록 01 · psa</span></div>
+<div class="article-kicker"><span>AI 활용 기록 04 · psa</span></div>
 <article class="article-body"><h1 id="section-1">복지시설에서 ChatGPT·Claude 쓸 때 이것만은 입력하지 마세요</h1>
 <blockquote><p>한 줄 요약: <strong>AI에게는 &#x27;사람&#x27;이 아니라 &#x27;상황&#x27;만 알려주세요.</strong> 이름·생년월일·주민번호·주소·병명이 빠진 상황 설명만으로도 AI는 충분히 도와줍니다.</p></blockquote>
 <p>상담일지 정리, 지원계획서 문장 다듬기, 후원 감사편지 초안. 생성형 AI가 복지 현장 문서 업무를 크게 줄여준다는 건 이제 많은 실무자가 체감하고 있습니다. 올해 1월 서울에서 열린 「사회복지 AI 컨퍼런스」에는 기관 리더와 실무자 400여 명이 모였고, 신청이 50분 만에 마감됐을 정도입니다.</p>
@@ -50,7 +53,7 @@
 <h2 id="section-3">2. 절대 입력하지 말아야 할 정보</h2>
 <p>개인정보위 이용자 가이드는 주민등록번호, 여권번호, 계좌정보, 인증번호, 비밀번호 같은 식별·인증 정보를 AI에 입력하지 말라고 권고합니다. 복지 현장 기준으로 넓혀 보면 다음과 같습니다.</p>
 <p class="table-note" id="table-hint-1">좁은 화면에서는 표를 좌우로 밀어 확인하세요.</p>
-<div class="table-scroll" role="region" aria-label="본문 표 1" aria-describedby="table-hint-1" tabindex="0"><table><thead><tr><th scope="col">구분</th><th scope="col">예시</th><th scope="col">입력</th></tr></thead><tbody><tr><td>고유식별·인증정보</td><td>주민번호, 여권번호, 계좌번호, 비밀번호, 인증번호</td><td>❌ 절대 금지</td></tr><tr><td>직접 식별정보</td><td>실명, 연락처, 상세주소, 얼굴 사진</td><td>❌ 가명으로 바꿀 것</td></tr><tr><td>민감정보</td><td>병명, 장애 정도, 정신과 진료, 수급 이력</td><td>⚠️ 일반화해서만 (&quot;만성질환 있음&quot;)</td></tr><tr><td>결합 시 식별 가능 정보</td><td>정확한 나이·입소일·출신 지역·가족관계</td><td>⚠️ 범위로 뭉개기 (&quot;60대&quot;, &quot;올해 상반기&quot;)</td></tr><tr><td>업무 내부자료</td><td>미공개 감사자료, 내부 회의록 원문</td><td>⚠️ 기관 방침 먼저 확인</td></tr></tbody></table></div>
+<div class="table-scroll" role="region" aria-label="본문 표 1" aria-describedby="table-hint-1" tabindex="0"><table><thead><tr><th scope="col">구분</th><th scope="col">예시</th><th scope="col">입력</th></tr></thead><tbody><tr><td>고유식별·인증정보</td><td>주민번호, 여권번호, 계좌번호, 비밀번호, 인증번호</td><td>❌ 절대 금지</td></tr><tr><td>직접 식별정보</td><td>실명, 연락처, 상세주소, 얼굴 사진</td><td>❌ 가명으로 바꿀 것</td></tr><tr><td>민감정보(건강)</td><td>병명, 장애 정도, 정신과 진료</td><td>⚠️ 일반화해서만 (&quot;만성질환 있음&quot;)</td></tr><tr><td>노출되면 불이익이 큰 정보</td><td>수급 이력, 채무, 가족 갈등</td><td>⚠️ 일반화해서만 (&quot;공적 급여 받음&quot;)</td></tr><tr><td>결합 시 식별 가능 정보</td><td>정확한 나이·입소일·출신 지역·가족관계</td><td>⚠️ 범위로 뭉개기 (&quot;60대&quot;, &quot;올해 상반기&quot;)</td></tr><tr><td>업무 내부자료</td><td>미공개 감사자료, 내부 회의록 원문</td><td>⚠️ 기관 방침 먼저 확인</td></tr></tbody></table></div>
 <blockquote><p>💡 <strong>행복e음·희망이음 등 사회복지 정보시스템 화면을 통째로 캡처해 AI에 올리는 것은 피하세요.</strong> 화면 한 장에 위 항목이 거의 다 들어 있습니다.</p></blockquote>
 <hr>
 <h2 id="section-4">3. 가명 처리, 이렇게 하면 됩니다 (전후 비교)</h2>
@@ -59,7 +62,7 @@
 <blockquote><p>김○○(1964년생, 순천시 ○○동) 님이 3월 12일 입소. 알코올 사용장애로 ○○병원 진료 중이며 기초생활수급자. 딸(연락처 010-…)과 연락 두절.</p></blockquote>
 <p><strong>✅ 가명·일반화한 경우</strong></p>
 <blockquote><p>A 님(60대 남성)이 올해 상반기 입소. 중독 관련 치료를 받고 있으며 공적 급여를 받고 있음. 가족과 연락이 끊긴 상태. → 이 상황에서 첫 달 사례관리 목표 3개를 제안해 줘.</p></blockquote>
-<p>AI가 내놓는 사례관리 목표의 질은 두 경우가 거의 같습니다. AI에게 필요한 건 <strong>누구인지가 아니라 어떤 상황인지</strong>이기 때문입니다.</p>
+<p>이름과 생년월일을 지워도 AI가 참고할 상황 정보는 그대로 남습니다. 사례관리 목표를 제안받는 데 필요한 것은 대부분 <strong>누구인지가 아니라 어떤 상황인지</strong>입니다.</p>
 <p><strong>가명 처리 3원칙</strong></p>
 <ol><li><strong>이름 → 기호</strong> (A 님, 이용자1)</li><li><strong>숫자 → 범위</strong> (1964년생 → 60대, 3월 12일 → 상반기)</li><li><strong>고유명사 → 일반명사</strong> (○○병원 → 의료기관, ○○동 → 지역사회)</li></ol>
 <hr>
