@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 1,
+  "posts": 2,
   "files": [
     "404.html",
     "_headers",
@@ -8,6 +8,7 @@
     "contact.html",
     "feed.xml",
     "index.html",
+    "posts/social-worker-ai-program-notice.html",
     "posts/social-worker-generative-ai-privacy-checklist.html",
     "privacy.html",
     "robots.txt",
