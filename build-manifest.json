@@ -1,0 +1,16 @@
+{
+  "public": true,
+  "posts": 1,
+  "files": [
+    "404.html",
+    "_headers",
+    "about.html",
+    "contact.html",
+    "feed.xml",
+    "index.html",
+    "posts/social-worker-generative-ai-privacy-checklist.html",
+    "privacy.html",
+    "robots.txt",
+    "sitemap.xml"
+  ]
+}
