@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src data:; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; script-src https://static.cloudflareinsights.com/beacon.min.js; connect-src https://cloudflareinsights.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src data:; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; script-src &#x27;self&#x27; https://static.cloudflareinsights.com/beacon.min.js; connect-src https://api.github.com https://cloudflareinsights.com">
   <meta name="referrer" content="no-referrer">
   
   <title>사회복지 프로그램 안내문 AI 활용법 | 쉬운 문장 프롬프트 3단계</title>
@@ -33,16 +33,27 @@
 /* Four-household comparison tables keep numeric columns balanced. */
 .table-scroll table:has(th:nth-child(5)){min-width:760px}
 .table-scroll table:has(th:nth-child(5)) td{width:auto}
+/* Publication links and reader conversations. */
+.post-neighbors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:36px 0;align-items:stretch}
+.post-neighbors a{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);background:var(--white);font-size:14px;text-decoration:none}
+.post-neighbors small{color:var(--muted)}
+.community{margin:40px 0;padding:28px;background:var(--white);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;font-size:15px}
+.community-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}.community h2{font-size:24px;margin:8px 0 12px}.community p{margin:12px 0}
+.community-primary{display:inline-block;padding:12px 18px;background:var(--ink);color:var(--paper);border-radius:4px;text-decoration:none;font-size:14px;font-weight:700;white-space:nowrap}.community-primary:hover{color:white;background:var(--accent)}
+.community-toolbar,.question-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:22px 0}
+.community button{font:inherit;font-size:14px;border:1px solid var(--ink);border-radius:4px;padding:10px 14px;background:var(--white);color:var(--ink);cursor:pointer}.community button:disabled{opacity:.6;cursor:wait}.community button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.community-note,.community-status,.conversation-meta{font-size:13px;color:var(--muted)}.community-note{padding:12px 16px;background:#f0f3ed;border-radius:4px}.conversation-card{border-top:1px solid var(--line);padding:20px 0}.conversation-card h3{font-size:19px;margin:6px 0}.conversation-body{white-space:pre-wrap;overflow-wrap:anywhere}.conversation-state{font-size:12px;background:#e8eee6;padding:4px 8px;border-radius:4px}.email-option{margin:36px 0;padding:24px;border:1px solid var(--line);background:#eaf0e7}.question-intro{font-size:20px;color:var(--muted)}
+@media(max-width:640px){.community{padding:20px 16px}.community-heading{align-items:flex-start;flex-direction:column;gap:8px}.post-neighbors{grid-template-columns:1fr}.question-actions{align-items:flex-start;flex-direction:column}.community-toolbar{gap:14px}.community h2{font-size:22px}}
 </style>
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 바로 가기</a>
   <header class="site-header">
     <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">AI</span><span>사회복지사의 AI 노하우<small>사회복지 실무와 AI</small></span></a>
-    <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
+    <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
   </header>
   <main id="main" tabindex="-1"><div class="article-layout"><a class="back-link" href="../index.html">← 모든 글</a>
-<div class="article-kicker"><span>AI 활용 기록 05 · psa</span></div>
+<div class="article-kicker"><span>글 02 · psa · 발행 2026-10-07 20:49</span></div>
 <article class="article-body"><h1 id="section-1">프로그램 안내문, AI로 쉽게 고치는 3단계</h1>
 <blockquote><p>한 줄 요약: <strong>날짜와 조건은 사람이 확정하고, AI에는 문장을 쉽게 고치는 일을 맡기세요.</strong></p></blockquote>
 <p>안내문을 다 읽고도 “어디로 신청하면 되나요?”라는 질문이 남는다면, 문장을 한 번 살펴볼 만합니다. 대상과 신청 방법이 긴 설명 속에 묻혀 있지는 않은지, 읽는 사람이 낯설어할 표현을 쓰지는 않았는지 확인해 보세요.</p>
@@ -102,8 +113,15 @@
 <p>다음 안내문에서는 전체를 새로 써 달라고 하기보다, 이미 확정한 내용을 사실표로 정리하고 어려운 문장 한두 개부터 고쳐 보세요. <strong>AI가 바꿀 수 있는 표현과 사람이 지켜야 할 사실을 구분하는 것</strong>이 시작점입니다.</p>
 <h2 id="section-9">참고 자료와 작성 안내</h2>
 <ul><li><a href="https://www.w3.org/WAI/tips/writing/" rel="noreferrer noopener" aria-label="W3C WAI, Writing for Web Accessibility — https://www.w3.org/WAI/tips/writing/">W3C WAI, Writing for Web Accessibility</a> — 명확한 지시, 짧은 문장·문단, 쉬운 표현에 관한 공식 안내. 2026-10-07 확인.</li><li>이 글의 프롬프트와 문장 비교는 설명용으로 작성했습니다. 특정 제품의 실행 결과, 접근성 인증, 효과 실측을 제시하지 않습니다.</li></ul>
-<aside class="editor-note" aria-labelledby="editor-title"><h2 id="editor-title">작성과 검수 안내</h2><p>AI의 도움을 받아 작성한 글입니다. 제도·금액·신청 조건은 본문의 기준일과 공식 출처를 함께 확인하세요.</p></aside></article></div></main>
-  <footer class="site-footer"><div><p>사회복지사의 AI 노하우 · psa</p><p>실무에 쓰는 AI, 함께 확인하는 노하우.</p></div><nav aria-label="하단 메뉴"><a href="../index.html">글 목록</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></footer>
+<aside class="editor-note" aria-labelledby="editor-title"><h2 id="editor-title">작성과 검수 안내</h2><p>AI의 도움을 받아 작성한 글입니다. 제도·금액·신청 조건은 본문의 기준일과 공식 출처를 함께 확인하세요.</p></aside></article><nav class="post-neighbors" aria-label="게시 순서로 읽기"><a href="social-worker-generative-ai-privacy-checklist.html"><small>← 이전 글 · 01</small><span>복지시설에서 ChatGPT·Claude 쓸 때 이것만은 입력하지 마세요 — 개인정보위 2026 가이드로 정리한 현장 체크리스트</span></a><a href="social-worker-ai-welfare-information-check.html"><small>다음 글 · 03 →</small><span>AI가 찾아준 복지사업 정보, 안내하기 전에 확인할 5가지</span></a></nav><section class="community" id="comments" aria-labelledby="comments-title" data-community="comments" data-issue="2">
+<div class="community-heading"><div><span class="eyebrow">함께 나누는 이야기</span><h2 id="comments-title">이 글의 댓글과 질문</h2></div><a class="community-primary" href="https://github.com/psa0426/psa0426.github.io/issues/2#new_comment_field">댓글 남기기 ↗</a></div>
+<p>읽기는 로그인 없이, 작성은 GitHub 로그인 후 가능합니다. 의견이나 수정할 내용을 남겨 주세요.</p>
+<p class="community-note">댓글은 공개됩니다. 실제 이용인의 이름·연락처·건강정보는 적지 말아 주세요.</p>
+<div class="community-toolbar"><button type="button" data-load>댓글 불러오기</button><a href="https://github.com/psa0426/psa0426.github.io/issues/2">전체 댓글방 보기 ↗</a><a href="../questions.html">다른 주제 질문하기 →</a></div>
+<p class="community-status" role="status" aria-live="polite">버튼을 누르면 공개 댓글을 불러옵니다.</p><div class="community-list" data-list></div>
+<noscript><p>댓글을 읽거나 쓰려면 위의 전체 댓글방 링크를 이용해 주세요.</p></noscript></section></div></main>
+  <footer class="site-footer"><div><p>사회복지사의 AI 노하우 · psa</p><p>실무에 쓰는 AI, 함께 확인하는 노하우.</p></div><nav aria-label="하단 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></footer>
+<script defer src="../community.js"></script>
 <script type="module" defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "f83059c61967471b963e18b025cd2178"}'></script>
 </body>
 </html>

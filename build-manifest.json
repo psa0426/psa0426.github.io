@@ -5,6 +5,7 @@
     "404.html",
     "_headers",
     "about.html",
+    "community.js",
     "contact.html",
     "feed.xml",
     "index.html",
@@ -15,6 +16,7 @@
     "posts/social-worker-generative-ai-privacy-checklist.html",
     "posts/welfare-benefit-types-2026.html",
     "privacy.html",
+    "questions.html",
     "robots.txt",
     "sitemap.xml"
   ]

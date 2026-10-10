@@ -1,0 +1,32 @@
+name: 블로그 질문
+description: 사회복지 실무와 블로그 내용에 관한 질문을 남겨 주세요.
+title: "[질문] "
+labels: ["blog-question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        질문과 답변은 누구나 볼 수 있습니다.
+        실제 이용인의 이름·연락처·건강정보나 기관 내부자료를 적지 말아 주세요.
+        특정 글에 관한 질문은 해당 글 아래 댓글방을 이용할 수도 있습니다.
+  - type: input
+    id: related-post
+    attributes:
+      label: 관련 글 주소 또는 제목
+      description: 관련 글이 있다면 적어 주세요. 없어도 됩니다.
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문 내용
+      description: 궁금한 점과 어떤 설명이 필요한지 적어 주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-notice
+    attributes:
+      label: 공개 게시 확인
+      options:
+        - label: 공개되는 글임을 확인했고 개인을 알아볼 수 있는 정보를 넣지 않았습니다.
+          required: true
