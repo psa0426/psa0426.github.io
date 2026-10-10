@@ -30,6 +30,9 @@
 
 /* Literal prompts: selectable text, wrapping at mobile widths. */
 .prompt-block{margin:24px 0;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:4px;background:#edf1e9;padding:18px 20px}.prompt-block figcaption{font-weight:700;margin-bottom:12px}.prompt-block pre,.prompt-block code{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0}.prompt-block pre{margin:0}.prompt-block code{user-select:text}
+/* Four-household comparison tables keep numeric columns balanced. */
+.table-scroll table:has(th:nth-child(5)){min-width:760px}
+.table-scroll table:has(th:nth-child(5)) td{width:auto}
 </style>
 </head>
 <body>

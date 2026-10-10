@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 5,
+  "posts": 6,
   "files": [
     "404.html",
     "_headers",
@@ -13,6 +13,7 @@
     "posts/social-worker-ai-program-notice.html",
     "posts/social-worker-ai-welfare-information-check.html",
     "posts/social-worker-generative-ai-privacy-checklist.html",
+    "posts/welfare-benefit-types-2026.html",
     "privacy.html",
     "robots.txt",
     "sitemap.xml"
