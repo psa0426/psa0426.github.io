@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 8,
+  "posts": 9,
   "files": [
     "404.html",
     "_headers",
@@ -10,6 +10,7 @@
     "feed.xml",
     "index.html",
     "posts/bokjinet-menu-guide.html",
+    "posts/emergency-welfare-support-guide.html",
     "posts/gov24-benefit-easyfind-guide.html",
     "posts/jahwal-centers-guide-2026.html",
     "posts/median-income-2027-changes.html",
