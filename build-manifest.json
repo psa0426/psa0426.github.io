@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 10,
+  "posts": 11,
   "files": [
     "404.html",
     "_headers",
@@ -9,6 +9,7 @@
     "contact.html",
     "feed.xml",
     "index.html",
+    "posts/ai-tool-roles-business-plan.html",
     "posts/bokjinet-menu-guide.html",
     "posts/emergency-welfare-support-guide.html",
     "posts/gov24-benefit-easyfind-guide.html",

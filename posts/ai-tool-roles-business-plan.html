@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src data:; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; script-src &#x27;self&#x27; https://static.cloudflareinsights.com/beacon.min.js; connect-src https://api.github.com https://cloudflareinsights.com">
+  <meta name="referrer" content="no-referrer">
+  
+  <title>사업계획서 AI 활용법 | 대화형·검색형·노트형 AI와 이미지 도구 역할 나누기</title>
+  <meta name="description" content="ChatGPT, Gemini, Claude, 검색형 AI, 노트형 AI, 이미지 도구를 한꺼번에 쓰면 내용의 출처가 섞입니다. 사업계획서 한 건을 단계별로 나눠 맡기는 역할표와 복사용 프롬프트, 확인표를 정리했습니다.">
+  <meta name="keywords" content="사업계획서 AI, 사회복지사 AI 도구, 노트형 AI, 검색형 AI, AI 홍보 포스터">
+  <meta name="author" content="psa">
+  <link rel="canonical" href="https://psa0426.github.io/posts/ai-tool-roles-business-plan.html">
+<meta property="og:url" content="https://psa0426.github.io/posts/ai-tool-roles-business-plan.html">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://psa0426.github.io/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="사업계획서 AI 활용법 | 대화형·검색형·노트형 AI와 이미지 도구 역할 나누기">
+<meta property="og:description" content="ChatGPT, Gemini, Claude, 검색형 AI, 노트형 AI, 이미지 도구를 한꺼번에 쓰면 내용의 출처가 섞입니다. 사업계획서 한 건을 단계별로 나눠 맡기는 역할표와 복사용 프롬프트, 확인표를 정리했습니다.">
+<meta property="og:site_name" content="사회복지사의 AI 노하우">
+<meta property="og:locale" content="ko_KR">
+  <link rel="icon" href="data:,">
+  <style>:root{color-scheme:light;--paper:#f7f6f0;--ink:#203b32;--muted:#56675d;--line:#d6dfd6;--accent:#a65232;--white:#fffefa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.8;overflow-wrap:anywhere}a{color:inherit;text-underline-offset:.24em}a:hover{color:var(--accent)}a:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.skip-link{position:absolute;top:-100px;left:16px;background:var(--ink);color:white;padding:10px 16px;z-index:5}.skip-link:focus{top:10px}.site-header{max-width:1184px;margin:auto;padding:26px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:14px;font-size:18px;font-weight:700;text-decoration:none;line-height:1.45}.brand-mark{display:grid;place-items:center;width:42px;height:48px;background:var(--ink);color:var(--paper);border-radius:3px 15px 3px 3px;font:italic 27px Georgia,serif;flex-shrink:0}.brand small{display:block;font-size:9px;letter-spacing:.18em;margin-top:5px;font-weight:400}nav{display:flex;align-items:center;gap:24px;font-size:13px}nav a{text-decoration:none}.draft-badge{border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:11px;white-space:nowrap}main{max-width:1120px;margin:auto;padding:0 32px;min-width:0}.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--accent);font-weight:700}.hero{padding:64px 0 46px;display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:end}.hero h1{font-size:clamp(30px,4.3vw,52px);line-height:1.35;letter-spacing:-.055em;margin:14px 0 0;word-break:keep-all}.hero p{color:var(--muted);font-size:15px;margin:0}.hero .subline{margin-top:24px;font-size:14px}.section-label{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--ink);padding:16px 0;margin-top:24px;font-size:12px;letter-spacing:.04em}.section-label h2{font-size:13px;margin:0}.note-card{display:grid;grid-template-columns:160px 1fr;gap:36px;border:1px solid var(--line);background:var(--white);padding:36px;margin:8px 0 48px}.note-number{font:italic 64px Georgia,serif;line-height:1;color:#aebcaf}.note-meta{font-size:11px;color:var(--muted);margin-top:18px}.note-card h3{margin:8px 0 16px;font-size:25px;line-height:1.5;letter-spacing:-.04em;word-break:keep-all}.note-card h3 a{text-decoration:none}.note-card p{font-size:14px;color:var(--muted);margin:0 0 20px}.read-link{font-size:13px;font-weight:700}.note-category{font-size:11px;color:var(--accent)}.principles{border-top:1px solid var(--line);padding:22px 0 40px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}.site-footer{max-width:1120px;margin:42px auto 0;padding:24px 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:18px;font-size:11px;color:var(--muted)}.site-footer p{margin:0}.article-layout{max-width:800px;margin:0 auto;padding:38px 0 8px;min-width:0}.back-link{font-size:12px}.article-kicker{margin-top:36px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.article-body{min-width:0;font-size:16px}.article-body h1{font-size:clamp(29px,3.3vw,42px);line-height:1.45;letter-spacing:-.055em;word-break:keep-all;margin:20px 0 30px}.article-body h2{font-size:24px;line-height:1.55;letter-spacing:-.035em;word-break:keep-all;margin:42px 0 18px}.article-body h3{font-size:18px;margin:28px 0 14px}.article-body p{margin:18px 0}.article-body strong{font-weight:750;color:#173c2f}.article-body blockquote{margin:24px 0;padding:10px 24px;border-left:3px solid #7e9984;background:#edf1e9;color:#314b3d}.article-body blockquote p{margin:10px 0}.article-body ul,.article-body ol{padding-left:26px}.article-body li{padding-left:4px;margin:10px 0}.article-body hr{border:0;border-top:1px solid var(--line);margin:38px 0}.table-note{font-size:11px;color:var(--muted);margin-bottom:8px!important}.table-scroll{display:block;width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--line);background:var(--white);border-radius:4px}.table-scroll table{width:100%;min-width:640px;border-collapse:collapse;font-size:14px;line-height:1.65}.table-scroll th,.table-scroll td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--line);overflow-wrap:break-word}.table-scroll th{background:#e8eee6;font-size:12px;color:#2e4c3c}.table-scroll tr:last-child td{border-bottom:0}.table-scroll td:first-child{font-weight:700;width:23%}.table-scroll td:nth-child(2){width:42%}.task-list{padding:14px 20px!important;list-style:none;background:var(--white);border:1px solid var(--line);border-radius:4px}.task-list li{padding:0;margin:12px 0}.task-list label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}.task-list input{width:18px;height:18px;accent-color:var(--ink);flex-shrink:0;margin-top:6px}.article-body a{overflow-wrap:anywhere}.article-body em{font-size:13px;color:var(--muted)}.editor-note{margin:40px 0 0;padding:24px;border-top:2px solid var(--ink);background:#eaf0e7;font-size:13px}.editor-note h2{font-size:15px;margin:0 0 12px}.editor-note p{margin:10px 0}.editor-note .pending{font-size:12px;color:var(--muted)}
+@media(max-width:640px){.site-header{padding:18px 20px;align-items:flex-start;gap:10px}.brand{font-size:14px;gap:10px}.brand small{font-size:7px}.brand-mark{width:32px;height:39px;font-size:22px}nav{gap:8px;flex-direction:column;align-items:flex-end;font-size:11px}.draft-badge{font-size:10px;padding:2px 8px}main{padding:0 20px}.hero{padding:38px 0 24px;grid-template-columns:1fr;gap:24px}.hero h1{font-size:32px}.hero p{font-size:14px}.note-card{grid-template-columns:1fr;gap:18px;padding:24px}.note-number{font-size:36px}.card-side{display:flex;justify-content:space-between;align-items:center}.note-meta{margin:0}.note-card h3{font-size:22px}.principles{display:block}.principles span{display:block;margin:6px 0}.site-footer{margin-top:18px;padding:22px 20px;display:block}.site-footer p+p{margin-top:6px}.article-layout{padding-top:24px}.article-kicker{margin-top:28px}.article-body{font-size:15px}.article-body h2{font-size:22px}.article-body blockquote{padding:8px 16px}.editor-note{padding:20px}.table-scroll th,.table-scroll td{padding:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* A2 navigation; existing table containment stays. */
+.header-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px;min-width:0}nav{flex-wrap:wrap;gap:12px 20px}.brand{min-width:0}.brand-mark{font:700 19px "Malgun Gothic",sans-serif}.site-footer nav{font-size:11px;align-content:start}.preview-settings{margin-top:8px!important}.contact-value{padding:18px;border:1px solid var(--line);background:var(--white);font-weight:700}
+@media(max-width:640px){.site-header{flex-direction:column;gap:16px}.header-links{align-items:flex-start;width:100%}nav{flex-direction:row;align-items:center;gap:10px 16px}.brand{font-size:16px}.brand small{font-size:9px}.brand-mark{font-size:17px}.site-footer nav{margin-top:18px}}
+
+/* Literal prompts: selectable text, wrapping at mobile widths. */
+.prompt-block{margin:24px 0;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:4px;background:#edf1e9;padding:18px 20px}.prompt-block figcaption{font-weight:700;margin-bottom:12px}.prompt-block pre,.prompt-block code{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0}.prompt-block pre{margin:0}.prompt-block code{user-select:text}
+/* Four-household comparison tables keep numeric columns balanced. */
+.table-scroll table:has(th:nth-child(5)){min-width:760px}
+.table-scroll table:has(th:nth-child(5)) td{width:auto}
+/* Publication links and reader conversations. */
+.post-neighbors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:36px 0;align-items:stretch}
+.post-neighbors a{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);background:var(--white);font-size:14px;text-decoration:none}
+.post-neighbors small{color:var(--muted)}
+.community{margin:40px 0;padding:28px;background:var(--white);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;font-size:15px}
+.community-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}.community h2{font-size:24px;margin:8px 0 12px}.community p{margin:12px 0}
+.community-primary{display:inline-block;padding:12px 18px;background:var(--ink);color:var(--paper);border-radius:4px;text-decoration:none;font-size:14px;font-weight:700;white-space:nowrap}.community-primary:hover{color:white;background:var(--accent)}
+.community-toolbar,.question-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:22px 0}
+.community button{font:inherit;font-size:14px;border:1px solid var(--ink);border-radius:4px;padding:10px 14px;background:var(--white);color:var(--ink);cursor:pointer}.community button:disabled{opacity:.6;cursor:wait}.community button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.community-note,.community-status,.conversation-meta{font-size:13px;color:var(--muted)}.community-note{padding:12px 16px;background:#f0f3ed;border-radius:4px}.conversation-card{border-top:1px solid var(--line);padding:20px 0}.conversation-card h3{font-size:19px;margin:6px 0}.conversation-body{white-space:pre-wrap;overflow-wrap:anywhere}.conversation-state{font-size:12px;background:#e8eee6;padding:4px 8px;border-radius:4px}.email-option{margin:36px 0;padding:24px;border:1px solid var(--line);background:#eaf0e7}.question-intro{font-size:20px;color:var(--muted)}
+@media(max-width:640px){.community{padding:20px 16px}.community-heading{align-items:flex-start;flex-direction:column;gap:8px}.post-neighbors{grid-template-columns:1fr}.question-actions{align-items:flex-start;flex-direction:column}.community-toolbar{gap:14px}.community h2{font-size:22px}}
+
+.reader-invitation{margin:40px 0;padding:24px;border-left:3px solid var(--accent);background:#eaf0e7}.reader-invitation h2{font-size:21px;margin:0 0 12px}.reader-invitation p{margin:10px 0;font-size:15px}
+
+.article-body p,.article-body li,.article-body td,.article-body th,.article-body blockquote,.prompt-block pre,.prompt-block code{word-break:keep-all}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로 가기</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">AI</span><span>사회복지사의 AI 노하우<small>사회복지 실무와 AI</small></span></a>
+    <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
+  </header>
+  <main id="main" tabindex="-1"><div class="article-layout"><a class="back-link" href="../index.html">← 모든 글</a>
+<div class="article-kicker"><span>글 11 · psa · 발행 2026-10-11 22:20</span></div>
+<article class="article-body"><h1 id="section-1">사업계획서 한 건을 AI 네 가지로 나눠 맡기는 법</h1>
+<blockquote><p>도구마다 잘하는 일이 다릅니다. 한 가지 사업을 쓰기, 찾기, 내 자료로 묻기, 이미지 만들기로 나눠 맡기면 어느 내용이 어디서 왔는지 구분하기 쉬워집니다.</p></blockquote>
+<p>AI 도구 이름은 많이 들었는데, 막상 일을 맡길 때는 어느 것을 열어야 할지 막연할 때가 있습니다. 그래서 하나에 모든 것을 맡기게 됩니다. 편하지만, 완성된 글을 보면 이 문장이 우리 기관 자료에서 나온 것인지, 인터넷에서 가져온 것인지, AI가 그럴듯하게 만든 것인지 알 수 없게 됩니다.</p>
+<p>이 글은 사업계획서 한 건을 기준으로 역할을 나누는 방법을 다룹니다.</p>
+<p>글 속 사례와 등장인물의 나이 등은 실제와 다른 허구입니다. 서비스 이름과 화면은 바뀔 수 있으며, 이 글의 예시는 설명용으로 직접 만든 것이지 특정 서비스의 실행 결과나 시간 절감 효과를 보여 주는 것이 아닙니다.</p>
+<h2 id="section-2">가상 사례: 일주일 안에 계획서와 포스터를</h2>
+<p>지역 복지관에서 일하는 민 선생님(가명)은 내년 주민 걷기 모임 사업계획서와 모집 포스터를 일주일 안에 준비해야 합니다. 처음에는 대화형 AI 하나에 &quot;걷기 모임 사업계획서 써 줘&quot;라고만 입력했습니다. 그럴듯한 초안이 나왔지만, 민 선생님은 참여 인원과 기대 효과 문장이 어디서 왔는지 설명할 수 없었습니다. 보고하는 자리에서 질문을 받으면 답하기 어려운 상태입니다.</p>
+<p>그래서 일을 네 단계로 나누기로 했습니다.</p>
+<h2 id="section-3">1. 역할 지도</h2>
+<p class="table-note" id="table-hint-1">좁은 화면에서는 표를 좌우로 밀어 확인하세요.</p>
+<div class="table-scroll" role="region" aria-label="본문 표 1" aria-describedby="table-hint-1" tabindex="0"><table><thead><tr><th scope="col">단계</th><th scope="col">하려는 일</th><th scope="col">맡길 도구 종류</th><th scope="col">꼭 확인할 것</th></tr></thead><tbody><tr><td>쓰기</td><td>초안 구조 잡기, 문장 다듬기, 회의 내용 요약</td><td>ChatGPT, Gemini, Claude 같은 대화형 AI</td><td>지어낸 숫자와 날짜</td></tr><tr><td>찾기</td><td>최신 정책과 사회 이슈, 연구 자료 찾기</td><td>답변에 출처 링크를 붙이는 검색형 AI(Perplexity 등)</td><td>링크를 열어 원문과 기준일 확인</td></tr><tr><td>내 자료로 묻기</td><td>지난 사업계획서, 운영 매뉴얼에서 필요한 내용 찾기</td><td>올린 자료 안에서 답하는 노트형 AI(Gemini Notebook 등)</td><td>개인정보 가리기, 인용된 원문 위치</td></tr><tr><td>이미지 만들기</td><td>모집 포스터, 카드뉴스</td><td>이미지 생성 AI와 편집 도구(Canva 등)</td><td>글자, 숫자, 사람 얼굴</td></tr></tbody></table></div>
+<p>표는 좁은 화면에서 좌우로 밀어서 볼 수 있습니다.</p>
+<h2 id="section-4">2. 첫 단계: 내 자료만 근거로 초안 만들기</h2>
+<p>가장 먼저 할 일은 인터넷에서 찾는 것이 아니라, 우리 기관에 이미 있는 자료로 틀을 잡는 것입니다. 작년 사업계획서나 결과보고서를 올릴 수 있는 도구에서 아래 프롬프트를 씁니다. 대괄호 안은 내 상황에 맞게 바꿉니다.</p>
+<p><em>복사용 프롬프트</em></p>
+<figure class="prompt-block"><figcaption>복사용 프롬프트</figcaption><pre><code>첨부한 자료(기관 소개, 지난 사업계획서, 결과보고서)만 근거로 [사업명] 사업계획서 초안의 목차와 항목별 핵심 문장을 써 줘.
+- 항목은 필요성, 목적, 대상, 추진 내용, 기대 효과, 평가 방법으로 나눠 줘.
+- 첨부 자료에서 가져온 내용은 문장 끝에 (자료)라고 표시해 줘.
+- 자료에 없어서 내가 새로 정해야 하는 내용은 (확인 필요)로 표시해 줘.
+- 숫자, 날짜, 예산 금액은 자료에 있는 것만 쓰고, 없으면 쓰지 말고 (확인 필요)로 남겨 줘.
+- 이용자 이름이나 연락처는 쓰지 말고, 개인정보로 보이는 내용이 있으면 먼저 알려 줘.</code></pre></figure>
+<p>결과에서 (자료)로 표시된 문장은 원문 위치를 찾아 확인하고, (확인 필요)로 남은 자리는 사람이 정합니다. 이 표시 하나만으로도 어느 내용이 우리 자료에서 왔는지 구분할 수 있습니다.</p>
+<h2 id="section-5">3. 도구별로 이것만은</h2>
+<h3 id="section-6">찾기: 출처 링크가 있어도 원문은 열어 봅니다</h3>
+<p>검색형 AI는 답변에 번호가 붙은 출처 링크를 보여 주는 방식으로 설명됩니다. 퍼플렉시티 도움말도 각 답변에 번호 각주가 붙고 원본 출처로 연결된다고 안내합니다. 다만 링크가 붙어 있다는 것과 내용이 정확하다는 것은 다릅니다. 링크를 열어 발행 기관, 기준 연도, 적용 시기를 직접 봅니다. 제도와 금액처럼 해마다 달라지는 정보를 확인하는 순서는 <a href="social-worker-ai-welfare-information-check.html">3편 AI가 찾아준 복지사업 정보 확인하기</a>에 정리해 두었습니다.</p>
+<h3 id="section-7">내 자료로 묻기: 올리기 전에 가립니다</h3>
+<p>구글 도움말은 Gemini Notebook의 소스 기반 질의에서 올린 자료를 바탕으로 답하고, 자료에 답이 없으면 응답하지 않는다고 설명합니다. 답변의 인용으로 원문 위치를 확인할 수 있지만, 소스가 너무 짧으면 개별 구절 인용 없이 문서 전체를 참조할 수 있다고 합니다. 인용이 붙지 않은 문장은 원문에서 직접 찾아봅니다.</p>
+<p>올릴 자료는 이용자 이름, 연락처, 상담 내용을 먼저 지운 뒤에 올립니다. 무엇을 입력하면 안 되는지는 <a href="social-worker-generative-ai-privacy-checklist.html">1편 AI 입력 금지 정보 체크리스트</a>에 정리해 두었습니다. 기관 계정으로 쓰려면 관리자가 서비스를 켜 두어야 할 수 있으니, 사용 전에 확인합니다.</p>
+<p>이 서비스는 확인일 기준 구글 공식 도움말에서 Gemini Notebook이라는 이름으로 안내됩니다.</p>
+<h3 id="section-8">이미지 만들기: 글자는 직접 고칩니다</h3>
+<p>이미지 생성 AI가 만든 포스터에서 날짜, 시간, 전화번호 같은 글자와 숫자는 틀릴 수 있습니다. 이미지는 분위기와 배치를 얻는 용도로 쓰고, 글자는 편집 도구에서 사실표대로 직접 입력하는 편이 안전합니다. 실제 인물과 닮은 얼굴, 기존 캐릭터나 로고와 비슷한 그림이 나오면 쓰지 않습니다. 생성한 이미지의 이용 조건은 서비스마다 다르므로, 사용하는 서비스의 약관을 확인합니다. 이용자 사진은 올리지 않습니다.</p>
+<h2 id="section-9">4. 파일 이름으로 구분해 두기</h2>
+<p>AI가 쓴 초안과 사람이 확정한 본이 한 폴더에 섞이면 나중에 어느 것이 최종인지 알 수 없습니다. 파일 이름에 날짜, 사업명, 문서 종류, 상태를 넣어 두면 구분됩니다.</p>
+<ul><li>20261011-걷기모임-사업계획서-AI초안</li><li>20261012-걷기모임-사업계획서-확정본</li></ul>
+<p>이름 형식은 기관마다 다르게 정해도 되지만, 한 번 정한 형식을 끝까지 쓰는 것이 중요합니다.</p>
+<h2 id="section-10">5. 마무리 확인표</h2>
+<ul class="task-list"><li><label><input type="checkbox"><span>(자료)로 표시된 문장의 원문 위치를 찾아 확인했는가?</span></label></li><li><label><input type="checkbox"><span>(확인 필요)로 남은 항목을 사람이 정했는가?</span></label></li><li><label><input type="checkbox"><span>검색으로 가져온 내용은 링크를 열어 기관, 기준 연도, 적용 시기를 봤는가?</span></label></li><li><label><input type="checkbox"><span>올린 자료에서 개인정보를 지웠는가?</span></label></li><li><label><input type="checkbox"><span>포스터의 날짜, 시간, 장소, 전화번호를 사실표와 글자까지 대조했는가?</span></label></li><li><label><input type="checkbox"><span>AI 초안과 확정본의 파일 이름이 구분되는가?</span></label></li></ul>
+<h2 id="section-11">이번 주에 해 볼 한 가지</h2>
+<p>작년 사업계획서나 결과보고서 중 하나를 골라 개인정보를 지우고, 위 프롬프트로 (자료)와 (확인 필요)를 나눠 보세요. 포스터나 검색까지 한꺼번에 하지 않아도 됩니다. 이 한 단계만 해 봐도 우리 기관에 이미 있는 자료와 새로 정해야 할 내용이 구분됩니다.</p>
+<h2 id="section-12">참고 자료와 작성 안내</h2>
+<ul><li><a href="https://support.google.com/gemininotebook/answer/16269187?hl=en" rel="noreferrer noopener" aria-label="Gemini Notebook 도움말 — https://support.google.com/gemininotebook/answer/16269187?hl=en">Gemini Notebook 도움말</a> — 올린 소스 기반 답변과 인용 안내. 2026-10-11 확인.</li><li><a href="https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work" rel="noreferrer noopener" aria-label="Perplexity 도움말: How does Perplexity work? — https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work">Perplexity 도움말: How does Perplexity work?</a> — 답변 생성 방식과 출처 표시 안내. 2026-10-11 확인.</li><li>AI의 도움을 받아 작성한 글입니다. 제도·금액·신청 조건은 본문의 기준일과 공식 출처를 함께 확인하세요. 이 글은 특정 제도나 금액을 설명하지 않으며, 프롬프트의 실행 결과를 보장하지 않습니다.</li></ul>
+<section class="reader-invitation" aria-labelledby="reader-invitation-title"><h2 id="reader-invitation-title">궁금한 점이나 바라는 내용을 알려 주세요</h2><p>글을 읽다가 궁금한 점이 생겼거나 앞으로 다뤘으면 하는 내용이 있다면 <a href="../questions.html">질문게시판</a> 또는 <a href="mailto:tkdgh7248@naver.com">tkdgh7248@naver.com</a>으로 보내 주세요.</p><p>여러분의 질문과 제안은 다음 글을 준비하고 기존 내용을 보완하는 데 참고하겠습니다.</p></section>
+<aside class="editor-note" aria-labelledby="editor-title"><h2 id="editor-title">작성과 검수 안내</h2><p>AI의 도움을 받아 작성한 글입니다. 제도·금액·신청 조건은 본문의 기준일과 공식 출처를 함께 확인하세요.</p></aside></article><nav class="post-neighbors" aria-label="게시 순서로 읽기"><a href="suicide-prevention-gatekeeper-guide.html"><small>← 이전 글 · 10</small><span>자살예방: 걱정되는 사람 곁에서 할 수 있는 일</span></a></nav><section class="community" id="comments" aria-labelledby="comments-title" data-community="comments" data-issue="11">
+<div class="community-heading"><div><span class="eyebrow">함께 나누는 이야기</span><h2 id="comments-title">이 글의 댓글과 질문</h2></div><a class="community-primary" href="https://github.com/psa0426/psa0426.github.io/issues/11#new_comment_field">댓글 남기기 ↗</a></div>
+<p>읽기는 로그인 없이, 작성은 GitHub 로그인 후 가능합니다. 의견이나 수정할 내용을 남겨 주세요.</p>
+<p class="community-note">댓글은 공개됩니다. 실제 이용인의 이름·연락처·건강정보는 적지 말아 주세요.</p>
+<div class="community-toolbar"><button type="button" data-load>댓글 불러오기</button><a href="https://github.com/psa0426/psa0426.github.io/issues/11">전체 댓글방 보기 ↗</a><a href="../questions.html">다른 주제 질문하기 →</a></div>
+<p class="community-status" role="status" aria-live="polite">버튼을 누르면 공개 댓글을 불러옵니다.</p><div class="community-list" data-list></div>
+<noscript><p>댓글을 읽거나 쓰려면 위의 전체 댓글방 링크를 이용해 주세요.</p></noscript></section></div></main>
+  <footer class="site-footer"><div><p>사회복지사의 AI 노하우 · psa</p><p>실무에 쓰는 AI, 함께 확인하는 노하우.</p></div><nav aria-label="하단 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></footer>
+<script defer src="../community.js"></script>
+<script type="module" defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "f83059c61967471b963e18b025cd2178"}'></script>
+</body>
+</html>
