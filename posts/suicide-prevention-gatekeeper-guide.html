@@ -46,6 +46,8 @@
 @media(max-width:640px){.community{padding:20px 16px}.community-heading{align-items:flex-start;flex-direction:column;gap:8px}.post-neighbors{grid-template-columns:1fr}.question-actions{align-items:flex-start;flex-direction:column}.community-toolbar{gap:14px}.community h2{font-size:22px}}
 
 .reader-invitation{margin:40px 0;padding:24px;border-left:3px solid var(--accent);background:#eaf0e7}.reader-invitation h2{font-size:21px;margin:0 0 12px}.reader-invitation p{margin:10px 0;font-size:15px}
+
+.article-body p,.article-body li,.article-body td,.article-body th,.article-body blockquote,.prompt-block pre,.prompt-block code{word-break:keep-all}
 </style>
 </head>
 <body>
@@ -85,16 +87,14 @@
 <p>해당된다는 이유만으로 지원이 자동 결정되는 것은 아닙니다. 기관에 긴급복지 연결을 문의하고, 소득·재산 등 제도의 다른 기준은 <a href="emergency-welfare-support-guide.html">9편 긴급복지지원제도 안내</a>를 함께 확인하세요. 긴급지원 상담은 129에서 24시간 안내받을 수 있습니다.</p>
 <p>돌보는 실무자의 지원도 챙겨 주세요. 재단은 자살예방사업 수행인력을 위한 <a href="https://www.kfsp.or.kr/home/kor/board.do?menuPos=62&amp;act=detail&amp;idx=6591" rel="noreferrer noopener" aria-label="소진관리 교육 과정 — https://www.kfsp.or.kr/home/kor/board.do?menuPos=62&amp;act=detail&amp;idx=6591">소진관리 교육 과정</a>을 운영합니다. 링크는 2026년 2차 교육 선정결과 안내이며, 현재 신청이 열려 있다는 뜻은 아닙니다. 실무자 교육 안내를 살펴볼 때 소진관리 과정도 함께 확인해 보세요.</p>
 <h2 id="section-7">6. AI로 안내문을 만들 때는 번호와 표현을 따로 검수하세요</h2>
-<p>이 글을 준비하며 현재 Codex 세션에 복지시설 게시판용 상담 안내문 초안을 요청했습니다. 생성된 초안의 109·24시간과 119·112는 공식 자료와 맞았지만, 번호의 공식 출처와 확인일은 빠져 있었습니다. 한 번의 시험 결과입니다. 번호가 맞게 나왔다고 게시할 준비까지 끝난 것은 아닙니다.</p>
-<p><strong>연락처는 공식 사이트에서 직접 확인하고 AI가 쓴 번호를 그대로 게시하지 않는다.</strong> 확인한 번호·시간·방식·URL·확인일을 먼저 정리한 뒤, 그 자료 안에서만 초안을 작성하도록 요청하세요. 실제 이용자 정보나 개인 사례를 AI에 입력하지 마세요.</p>
+<p>이 글을 준비하며 AI(Codex)에 복지시설 게시판용 상담 안내문 초안을 요청해 봤습니다. 생성된 초안의 109·24시간과 119·112는 공식 자료와 맞았지만, 번호의 공식 출처와 확인일은 빠져 있었습니다. 한 번의 시험 결과입니다. 번호가 맞게 나왔다고 게시할 준비까지 끝난 것은 아닙니다.</p>
+<p><strong>연락처는 공식 사이트에서 직접 확인하고 AI가 쓴 번호를 그대로 게시하지 않는다.</strong> 확인한 번호·시간·방식·URL·확인일을 먼저 정리한 뒤, 그 자료 안에서만 초안을 작성하도록 요청하세요. 아래 프롬프트의 맨 끝 “확인 자료:” 뒤에 정리한 내용을 붙여 넣으면 됩니다. 실제 이용자 정보나 개인 사례를 AI에 입력하지 마세요.</p>
 <figure class="prompt-block"><figcaption>복사용 프롬프트</figcaption><pre><code>공식 자료만 사용해 복지시설 게시판용 상담 안내문 초안을 작성해 주세요.
 독자는 도움이 필요한 본인과 주변 사람이 걱정되는 사람입니다.
-아래 확인 자료에 있는 번호·운영시간·상담 방식만 사용하고, 공식 URL과 확인일을 붙여 주세요.
-확인되지 않은 비용·비밀보장·출동 여부·지원 결과는 적지 마세요.
-구체적인 사건이나 위기 장면을 넣지 말고, 판단하거나 설득하는 표현은 피하세요.
-연락처는 공식 사이트에서 직접 확인하고 AI가 쓴 번호를 그대로 게시하지 않는다.
-실제 이용자 정보와 개인 사례는 입력하지 않습니다.
-확인 자료: 담당자가 공식 출처에서 확인한 정보만 이 자리에 적습니다.</code></pre></figure>
+아래 확인 자료에 있는 번호·운영시간·상담 방식만 사용하고, 번호마다 공식 URL과 확인일을 붙여 주세요.
+확인 자료에 없는 번호, 비용, 비밀보장, 출동 여부, 지원 결과는 적지 말고 &quot;확인 필요&quot;라고 표시해 주세요.
+구체적인 사건이나 위기 장면은 넣지 말고, 판단하거나 설득하는 표현은 피해 주세요.
+확인 자료:</code></pre></figure>
 <p>게시 전에는 번호 검수와 표현 검수를 별도로 하세요. <a href="https://www.mohw.go.kr/board.es?act=view&amp;bid=0027&amp;list_no=1483567&amp;mid=a10503010100&amp;nPage=1&amp;tag=" rel="noreferrer noopener" aria-label="보건복지부의 자살예방 보도준칙 4.0 — https://www.mohw.go.kr/board.es?act=view&amp;bid=0027&amp;list_no=1483567&amp;mid=a10503010100&amp;nPage=1&amp;tag=">보건복지부의 자살예방 보도준칙 4.0</a>은 블로그·SNS에도 적용되며, 예방정보를 제공하고 사건을 자극적으로 전달하지 않도록 합니다. <a href="https://journalist.or.kr/news/section4.html?p_num=12" rel="noreferrer noopener" aria-label="공동 발간기관 한국기자협회의 세부 준칙 — https://journalist.or.kr/news/section4.html?p_num=12">공동 발간기관 한국기자협회의 세부 준칙</a>을 함께 대조해, 원인을 하나로 단정하거나 자살을 선택 가능한 대안으로 읽히게 하는 표현은 게시문에서 빼세요.</p>
 <p>주변을 돕는 안내문의 중심에는, 누군가의 이야기를 듣고 필요한 도움에 함께 연결하는 행동을 두세요.</p>
 <section class="reader-invitation" aria-labelledby="reader-invitation-title"><h2 id="reader-invitation-title">궁금한 점이나 바라는 내용을 알려 주세요</h2><p>글을 읽다가 궁금한 점이 생겼거나 앞으로 다뤘으면 하는 내용이 있다면 <a href="../questions.html">질문게시판</a> 또는 <a href="mailto:tkdgh7248@naver.com">tkdgh7248@naver.com</a>으로 보내 주세요.</p><p>여러분의 질문과 제안은 다음 글을 준비하고 기존 내용을 보완하는 데 참고하겠습니다.</p></section>
