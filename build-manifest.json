@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 7,
+  "posts": 8,
   "files": [
     "404.html",
     "_headers",
@@ -12,6 +12,7 @@
     "posts/bokjinet-menu-guide.html",
     "posts/gov24-benefit-easyfind-guide.html",
     "posts/jahwal-centers-guide-2026.html",
+    "posts/median-income-2027-changes.html",
     "posts/social-worker-ai-program-notice.html",
     "posts/social-worker-ai-welfare-information-check.html",
     "posts/social-worker-generative-ai-privacy-checklist.html",
