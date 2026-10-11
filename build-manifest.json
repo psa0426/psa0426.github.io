@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 12,
+  "posts": 13,
   "files": [
     "404.html",
     "_headers",
@@ -11,6 +11,7 @@
     "index.html",
     "posts/ai-tool-roles-business-plan.html",
     "posts/basic-livelihood-apply-process.html",
+    "posts/basic-pension-2026-guide.html",
     "posts/bokjinet-menu-guide.html",
     "posts/emergency-welfare-support-guide.html",
     "posts/gov24-benefit-easyfind-guide.html",
