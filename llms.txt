@@ -1,0 +1,23 @@
+# 사회복지사의 AI 노하우
+
+> 사회복지 업무에 쓰는 AI, 직접 확인하고 나누는 노하우
+
+## 글 목록
+
+- [2026 사회복지시설 종사자 인건비 가이드라인: 달라진 기준과 내 급여 확인 순서](https://psa0426.github.io/posts/welfare-worker-pay-guideline-2026.html)
+- [주거급여 신청: 2026년 대상·지원금액과 2027년 달라지는 점](https://psa0426.github.io/posts/housing-benefit-apply-guide.html)
+- [2026 에너지바우처 신청: 대상·지원금액·사용 기간](https://psa0426.github.io/posts/energy-voucher-2026-guide.html)
+- [노숙인 복지서비스, 어디서 어떻게 도움받나](https://psa0426.github.io/posts/homeless-welfare-services-guide.html)
+- [2026 기초연금: 대상·선정기준액·신청 방법과 감액 확인](https://psa0426.github.io/posts/basic-pension-2026-guide.html)
+- [기초생활수급자 신청 방법: 서류부터 결정 기간·이의신청까지](https://psa0426.github.io/posts/basic-livelihood-apply-process.html)
+- [사업계획서 한 건을 AI 네 가지로 나눠 맡기는 법](https://psa0426.github.io/posts/ai-tool-roles-business-plan.html)
+- [자살예방: 걱정되는 사람 곁에서 할 수 있는 일](https://psa0426.github.io/posts/suicide-prevention-gatekeeper-guide.html)
+- [긴급복지지원제도: 실직·질병으로 갑자기 생계가 막막할 때](https://psa0426.github.io/posts/emergency-welfare-support-guide.html)
+- [2027년 기준 중위소득 확정: 2026년과 얼마나 달라지나?](https://psa0426.github.io/posts/median-income-2027-changes.html)
+- [전국 자활센터, 어디에 있고 누가 이용할 수 있을까? 역할·참여 기준·신청 방법](https://psa0426.github.io/posts/jahwal-centers-guide-2026.html)
+- [2026년 기초생활수급자·시설수급자·차상위·자활특례, 기준은 어떻게 다를까?](https://psa0426.github.io/posts/welfare-benefit-types-2026.html)
+- [복지넷, 구인공고만 보고 나오셨나요? 사회복지사가 챙길 메뉴 6가지](https://psa0426.github.io/posts/bokjinet-menu-guide.html)
+- [정부24 혜택알리미 간편찾기 사용법: 찾은 혜택을 AI로 정리하기](https://psa0426.github.io/posts/gov24-benefit-easyfind-guide.html)
+- [AI가 찾아준 복지사업 정보, 안내하기 전에 확인할 5가지](https://psa0426.github.io/posts/social-worker-ai-welfare-information-check.html)
+- [프로그램 안내문, AI로 쉽게 고치는 3단계 — 복사해서 쓰는 프롬프트와 검수표](https://psa0426.github.io/posts/social-worker-ai-program-notice.html)
+- [복지시설에서 ChatGPT·Claude 쓸 때 이것만은 입력하지 마세요 — 개인정보위 2026 가이드로 정리한 현장 체크리스트](https://psa0426.github.io/posts/social-worker-generative-ai-privacy-checklist.html)
