@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 13,
+  "posts": 14,
   "files": [
     "404.html",
     "_headers",
@@ -15,6 +15,7 @@
     "posts/bokjinet-menu-guide.html",
     "posts/emergency-welfare-support-guide.html",
     "posts/gov24-benefit-easyfind-guide.html",
+    "posts/homeless-welfare-services-guide.html",
     "posts/jahwal-centers-guide-2026.html",
     "posts/median-income-2027-changes.html",
     "posts/social-worker-ai-program-notice.html",
