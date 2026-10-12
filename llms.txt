@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [교육급여 2026: 대상 기준과 지원 항목·금액, 신청 방법](https://psa0426.github.io/posts/education-benefit-2026-guide.html)
 - [의료급여 1종·2종 차이: 대상 기준과 병원비 본인부담 (2026)](https://psa0426.github.io/posts/medical-aid-type1-type2-2026.html)
 - [AI에게 복지 제도를 물어봤더니: 틀린 답 시험 기록 (기초연금·에너지바우처·주거급여)](https://psa0426.github.io/posts/ai-welfare-answers-test-record-2026.html)
 - [월급 얼마까지 기초생활수급자가 될 수 있을까? 소득인정액 계산 사례 3가지 (2026)](https://psa0426.github.io/posts/income-recognition-worked-examples-2026.html)
