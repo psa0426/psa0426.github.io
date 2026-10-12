@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 16,
+  "posts": 17,
   "files": [
     "404.html",
     "_headers",
@@ -25,6 +25,7 @@
     "posts/social-worker-generative-ai-privacy-checklist.html",
     "posts/suicide-prevention-gatekeeper-guide.html",
     "posts/welfare-benefit-types-2026.html",
+    "posts/welfare-worker-pay-guideline-2026.html",
     "privacy.html",
     "questions.html",
     "robots.txt",
