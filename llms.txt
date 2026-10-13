@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [장애인연금과 장애수당, AI는 제대로 구분할까? 공식 원문과 대조한 답변 시험](https://psa0426.github.io/posts/ai-disability-pension-allowance-test-2026.html)
 - [장애수당 2026: 대상·금액·신청 방법과 장애인연금 차이](https://psa0426.github.io/posts/disability-allowance-2026-guide.html)
 - [장애인연금 2026: 대상 기준과 지급액, 신청 방법](https://psa0426.github.io/posts/disability-pension-2026-guide.html)
 - [교육급여 2026: 대상 기준과 지원 항목·금액, 신청 방법](https://psa0426.github.io/posts/education-benefit-2026-guide.html)
