@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [장애수당 2026: 대상·금액·신청 방법과 장애인연금 차이](https://psa0426.github.io/posts/disability-allowance-2026-guide.html)
 - [장애인연금 2026: 대상 기준과 지급액, 신청 방법](https://psa0426.github.io/posts/disability-pension-2026-guide.html)
 - [교육급여 2026: 대상 기준과 지원 항목·금액, 신청 방법](https://psa0426.github.io/posts/education-benefit-2026-guide.html)
 - [의료급여 1종·2종 차이: 대상 기준과 병원비 본인부담 (2026)](https://psa0426.github.io/posts/medical-aid-type1-type2-2026.html)
