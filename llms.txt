@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [차상위 본인부담경감 2026: 대상과 병원비 부담, 확인 방법](https://psa0426.github.io/posts/near-poverty-medical-fee-reduction-2026.html)
 - [한부모가족 지원 2026: 대상 기준과 지원 항목, 신청 방법](https://psa0426.github.io/posts/single-parent-family-support-2026-guide.html)
 - [장애인연금과 장애수당, AI는 제대로 구분할까? 공식 원문과 대조한 답변 시험](https://psa0426.github.io/posts/ai-disability-pension-allowance-test-2026.html)
 - [장애수당 2026: 대상·금액·신청 방법과 장애인연금 차이](https://psa0426.github.io/posts/disability-allowance-2026-guide.html)
