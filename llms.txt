@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [산정특례 2026: 대상 질환 구분과 본인부담, 등록 방법](https://psa0426.github.io/posts/special-copayment-exemption-2026-guide.html)
 - [기초생활수급자 재산 기준 2026: 집·보증금·통장·자동차는 어떻게 반영될까](https://psa0426.github.io/posts/basic-livelihood-property-criteria-2026.html)
 - [AI에게 복지 제도를 까다롭게 물어봤더니: 연도·예외·중복 질문 시험 기록](https://psa0426.github.io/posts/ai-welfare-hard-questions-test-2026.html)
 - [차상위 본인부담경감 2026: 대상과 병원비 부담, 확인 방법](https://psa0426.github.io/posts/near-poverty-medical-fee-reduction-2026.html)
