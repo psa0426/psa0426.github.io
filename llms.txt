@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [2026 사회복지사 보수교육, 내 상황에 필요한가요?](https://psa0426.github.io/posts/social-worker-continuing-education-faq-2026.html)
 - [AI에게 만족도 설문을 요약시켰더니: 숫자와 의견을 다시 확인한 기록](https://psa0426.github.io/posts/ai-survey-summary-numbers-check-test.html)
 - [걱정되는 이웃을 만났을 때: 복지위기알림과 연락할 곳](https://psa0426.github.io/posts/welfare-blind-spot-referral-routes.html)
 - [급여·수당·연금·바우처, 복지사업 이름에서 무엇을 확인할까](https://psa0426.github.io/posts/welfare-terms-benefit-allowance-voucher.html)
