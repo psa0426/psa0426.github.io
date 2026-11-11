@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [급여·수당·연금·바우처, 복지사업 이름에서 무엇을 확인할까](https://psa0426.github.io/posts/welfare-terms-benefit-allowance-voucher.html)
 - [AI가 알려준 법 조문, 국가법령정보센터에서 확인하는 순서](https://psa0426.github.io/posts/law-go-kr-check-article-walkthrough.html)
 - [발달장애인 방과후활동서비스 2026: 청소년 대상과 신청 안내](https://psa0426.github.io/posts/developmental-disability-after-school-2026.html)
 - [발달장애인 주간활동서비스 2026: 성인 대상과 이용 전 확인](https://psa0426.github.io/posts/developmental-disability-day-activity-2026.html)
