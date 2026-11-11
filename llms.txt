@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [걱정되는 이웃을 만났을 때: 복지위기알림과 연락할 곳](https://psa0426.github.io/posts/welfare-blind-spot-referral-routes.html)
 - [급여·수당·연금·바우처, 복지사업 이름에서 무엇을 확인할까](https://psa0426.github.io/posts/welfare-terms-benefit-allowance-voucher.html)
 - [AI가 알려준 법 조문, 국가법령정보센터에서 확인하는 순서](https://psa0426.github.io/posts/law-go-kr-check-article-walkthrough.html)
 - [발달장애인 방과후활동서비스 2026: 청소년 대상과 신청 안내](https://psa0426.github.io/posts/developmental-disability-after-school-2026.html)
