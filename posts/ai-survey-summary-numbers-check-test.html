@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src data:; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; script-src &#x27;self&#x27; https://static.cloudflareinsights.com/beacon.min.js; connect-src https://api.github.com https://cloudflareinsights.com">
+  <meta name="referrer" content="no-referrer">
+  
+  <title>합성 만족도 설문 AI 요약 실험과 숫자 검산</title>
+  <meta name="description" content="가상의 설문 10건을 AI에 요약시킨 뒤 응답 수, 평균과 비율, 의견 인용을 직접 대조한 시험 기록입니다.">
+  <meta name="keywords" content="AI 설문 요약 검산, 만족도 설문 AI, 설문 평균 계산">
+  <meta name="author" content="psa">
+  <link rel="canonical" href="https://psa0426.github.io/posts/ai-survey-summary-numbers-check-test.html">
+<meta property="og:url" content="https://psa0426.github.io/posts/ai-survey-summary-numbers-check-test.html">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://psa0426.github.io/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="합성 만족도 설문 AI 요약 실험과 숫자 검산">
+<meta property="og:description" content="가상의 설문 10건을 AI에 요약시킨 뒤 응답 수, 평균과 비율, 의견 인용을 직접 대조한 시험 기록입니다.">
+<meta property="og:site_name" content="사회복지사의 AI 노하우">
+<meta property="og:locale" content="ko_KR">
+<meta name="google-site-verification" content="g2Gd62cSpBfG5KrUjpRu4g_hAetu33OkOhtbKlXCnMU">
+<meta name="naver-site-verification" content="888d9a1f7bec664060f8d3f3f67c89623608bf97">
+<meta property="og:image" content="https://psa0426.github.io/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="사회복지사의 AI 노하우 — 사회복지 업무에 쓰는 AI, 직접 확인하고 나누는 노하우">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="합성 만족도 설문 AI 요약 실험과 숫자 검산">
+<meta name="twitter:description" content="가상의 설문 10건을 AI에 요약시킨 뒤 응답 수, 평균과 비율, 의견 인용을 직접 대조한 시험 기록입니다.">
+<meta name="twitter:image" content="https://psa0426.github.io/share.png">
+<script type="application/ld+json" data-generated="structured">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "AI에게 만족도 설문을 요약시켰더니: 숫자와 의견을 다시 확인한 기록", "description": "가상의 설문 10건을 AI에 요약시킨 뒤 응답 수, 평균과 비율, 의견 인용을 직접 대조한 시험 기록입니다.", "datePublished": "2026-11-11T11:11:15+09:00", "dateModified": "2026-11-11T11:11:15+09:00", "author": {"@type": "Person", "name": "psa"}, "publisher": {"@type": "Organization", "name": "사회복지사의 AI 노하우"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://psa0426.github.io/posts/ai-survey-summary-numbers-check-test.html"}, "inLanguage": "ko", "image": "https://psa0426.github.io/share.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://psa0426.github.io/index.html"}, {"@type": "ListItem", "position": 2, "name": "AI에게 만족도 설문을 요약시켰더니: 숫자와 의견을 다시 확인한 기록", "item": "https://psa0426.github.io/posts/ai-survey-summary-numbers-check-test.html"}]}]}</script>
+  <link rel="icon" href="data:,">
+  <style>:root{color-scheme:light;--paper:#f7f6f0;--ink:#203b32;--muted:#56675d;--line:#d6dfd6;--accent:#a65232;--white:#fffefa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.8;overflow-wrap:anywhere}a{color:inherit;text-underline-offset:.24em}a:hover{color:var(--accent)}a:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.skip-link{position:absolute;top:-100px;left:16px;background:var(--ink);color:white;padding:10px 16px;z-index:5}.skip-link:focus{top:10px}.site-header{max-width:1184px;margin:auto;padding:26px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:14px;font-size:18px;font-weight:700;text-decoration:none;line-height:1.45}.brand-mark{display:grid;place-items:center;width:42px;height:48px;background:var(--ink);color:var(--paper);border-radius:3px 15px 3px 3px;font:italic 27px Georgia,serif;flex-shrink:0}.brand small{display:block;font-size:9px;letter-spacing:.18em;margin-top:5px;font-weight:400}nav{display:flex;align-items:center;gap:24px;font-size:13px}nav a{text-decoration:none}.draft-badge{border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:11px;white-space:nowrap}main{max-width:1120px;margin:auto;padding:0 32px;min-width:0}.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--accent);font-weight:700}.hero{padding:64px 0 46px;display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:end}.hero h1{font-size:clamp(30px,4.3vw,52px);line-height:1.35;letter-spacing:-.055em;margin:14px 0 0;word-break:keep-all}.hero p{color:var(--muted);font-size:15px;margin:0}.hero .subline{margin-top:24px;font-size:14px}.section-label{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--ink);padding:16px 0;margin-top:24px;font-size:12px;letter-spacing:.04em}.section-label h2{font-size:13px;margin:0}.note-card{display:grid;grid-template-columns:160px 1fr;gap:36px;border:1px solid var(--line);background:var(--white);padding:36px;margin:8px 0 48px}.note-number{font:italic 64px Georgia,serif;line-height:1;color:#aebcaf}.note-meta{font-size:11px;color:var(--muted);margin-top:18px}.note-card h3{margin:8px 0 16px;font-size:25px;line-height:1.5;letter-spacing:-.04em;word-break:keep-all}.note-card h3 a{text-decoration:none}.note-card p{font-size:14px;color:var(--muted);margin:0 0 20px}.read-link{font-size:13px;font-weight:700}.note-category{font-size:11px;color:var(--accent)}.principles{border-top:1px solid var(--line);padding:22px 0 40px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}.site-footer{max-width:1120px;margin:42px auto 0;padding:24px 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:18px;font-size:11px;color:var(--muted)}.site-footer p{margin:0}.article-layout{max-width:800px;margin:0 auto;padding:38px 0 8px;min-width:0}.back-link{font-size:12px}.article-kicker{margin-top:36px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.article-body{min-width:0;font-size:16px}.article-body h1{font-size:clamp(29px,3.3vw,42px);line-height:1.45;letter-spacing:-.055em;word-break:keep-all;margin:20px 0 30px}.article-body h2{font-size:24px;line-height:1.55;letter-spacing:-.035em;word-break:keep-all;margin:42px 0 18px}.article-body h3{font-size:18px;margin:28px 0 14px}.article-body p{margin:18px 0}.article-body strong{font-weight:750;color:#173c2f}.article-body blockquote{margin:24px 0;padding:10px 24px;border-left:3px solid #7e9984;background:#edf1e9;color:#314b3d}.article-body blockquote p{margin:10px 0}.article-body ul,.article-body ol{padding-left:26px}.article-body li{padding-left:4px;margin:10px 0}.article-body hr{border:0;border-top:1px solid var(--line);margin:38px 0}.table-note{font-size:11px;color:var(--muted);margin-bottom:8px!important}.table-scroll{display:block;width:100%;max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--line);background:var(--white);border-radius:4px}.table-scroll table{width:100%;min-width:640px;border-collapse:collapse;font-size:14px;line-height:1.65}.table-scroll th,.table-scroll td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--line);overflow-wrap:break-word}.table-scroll th{background:#e8eee6;font-size:12px;color:#2e4c3c}.table-scroll tr:last-child td{border-bottom:0}.table-scroll td:first-child{font-weight:700;width:23%}.table-scroll td:nth-child(2){width:42%}.task-list{padding:14px 20px!important;list-style:none;background:var(--white);border:1px solid var(--line);border-radius:4px}.task-list li{padding:0;margin:12px 0}.task-list label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}.task-list input{width:18px;height:18px;accent-color:var(--ink);flex-shrink:0;margin-top:6px}.article-body a{overflow-wrap:anywhere}.article-body em{font-size:13px;color:var(--muted)}.editor-note{margin:40px 0 0;padding:24px;border-top:2px solid var(--ink);background:#eaf0e7;font-size:13px}.editor-note h2{font-size:15px;margin:0 0 12px}.editor-note p{margin:10px 0}.editor-note .pending{font-size:12px;color:var(--muted)}
+@media(max-width:640px){.site-header{padding:18px 20px;align-items:flex-start;gap:10px}.brand{font-size:14px;gap:10px}.brand small{font-size:7px}.brand-mark{width:32px;height:39px;font-size:22px}nav{gap:8px;flex-direction:column;align-items:flex-end;font-size:11px}.draft-badge{font-size:10px;padding:2px 8px}main{padding:0 20px}.hero{padding:38px 0 24px;grid-template-columns:1fr;gap:24px}.hero h1{font-size:32px}.hero p{font-size:14px}.note-card{grid-template-columns:1fr;gap:18px;padding:24px}.note-number{font-size:36px}.card-side{display:flex;justify-content:space-between;align-items:center}.note-meta{margin:0}.note-card h3{font-size:22px}.principles{display:block}.principles span{display:block;margin:6px 0}.site-footer{margin-top:18px;padding:22px 20px;display:block}.site-footer p+p{margin-top:6px}.article-layout{padding-top:24px}.article-kicker{margin-top:28px}.article-body{font-size:15px}.article-body h2{font-size:22px}.article-body blockquote{padding:8px 16px}.editor-note{padding:20px}.table-scroll th,.table-scroll td{padding:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* A2 navigation; existing table containment stays. */
+.header-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px;min-width:0}nav{flex-wrap:wrap;gap:12px 20px}.brand{min-width:0}.brand-mark{font:700 19px "Malgun Gothic",sans-serif}.site-footer nav{font-size:11px;align-content:start}.preview-settings{margin-top:8px!important}.contact-value{padding:18px;border:1px solid var(--line);background:var(--white);font-weight:700}
+@media(max-width:640px){.site-header{flex-direction:column;gap:16px}.header-links{align-items:flex-start;width:100%}nav{flex-direction:row;align-items:center;gap:10px 16px}.brand{font-size:16px}.brand small{font-size:9px}.brand-mark{font-size:17px}.site-footer nav{margin-top:18px}}
+
+/* Literal prompts: selectable text, wrapping at mobile widths. */
+.prompt-block{margin:24px 0;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:4px;background:#edf1e9;padding:18px 20px}.prompt-block figcaption{font-weight:700;margin-bottom:12px}.prompt-block pre,.prompt-block code{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0}.prompt-block pre{margin:0}.prompt-block code{user-select:text}
+/* Four-household comparison tables keep numeric columns balanced. */
+.table-scroll table:has(th:nth-child(5)){min-width:760px}
+.table-scroll table:has(th:nth-child(5)) td{width:auto}
+/* Publication links and reader conversations. */
+.post-neighbors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:36px 0;align-items:stretch}
+.post-neighbors a{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);background:var(--white);font-size:14px;text-decoration:none}
+.post-neighbors small{color:var(--muted)}
+.community{margin:40px 0;padding:28px;background:var(--white);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;font-size:15px}
+.community-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}.community h2{font-size:24px;margin:8px 0 12px}.community p{margin:12px 0}
+.community-primary{display:inline-block;padding:12px 18px;background:var(--ink);color:var(--paper);border-radius:4px;text-decoration:none;font-size:14px;font-weight:700;white-space:nowrap}.community-primary:hover{color:white;background:var(--accent)}
+.community-toolbar,.question-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:22px 0}
+.community button{font:inherit;font-size:14px;border:1px solid var(--ink);border-radius:4px;padding:10px 14px;background:var(--white);color:var(--ink);cursor:pointer}.community button:disabled{opacity:.6;cursor:wait}.community button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.community-note,.community-status,.conversation-meta{font-size:13px;color:var(--muted)}.community-note{padding:12px 16px;background:#f0f3ed;border-radius:4px}.conversation-card{border-top:1px solid var(--line);padding:20px 0}.conversation-card h3{font-size:19px;margin:6px 0}.conversation-body{white-space:pre-wrap;overflow-wrap:anywhere}.conversation-state{font-size:12px;background:#e8eee6;padding:4px 8px;border-radius:4px}.email-option{margin:36px 0;padding:24px;border:1px solid var(--line);background:#eaf0e7}.question-intro{font-size:20px;color:var(--muted)}
+@media(max-width:640px){.community{padding:20px 16px}.community-heading{align-items:flex-start;flex-direction:column;gap:8px}.post-neighbors{grid-template-columns:1fr}.question-actions{align-items:flex-start;flex-direction:column}.community-toolbar{gap:14px}.community h2{font-size:22px}}
+
+.reader-invitation{margin:40px 0;padding:24px;border-left:3px solid var(--accent);background:#eaf0e7}.reader-invitation h2{font-size:21px;margin:0 0 12px}.reader-invitation p{margin:10px 0;font-size:15px}
+
+.article-body p,.article-body li,.article-body td,.article-body th,.article-body blockquote,.prompt-block pre,.prompt-block code{word-break:keep-all}
+
+/* generated-related:start */
+.related-posts{margin:2rem 0;padding:1.25rem;border:1px solid var(--line);border-radius:12px}
+.related-posts h2{margin:0 0 1rem;font-size:1.15rem;word-break:keep-all}
+.related-posts ul{margin:0;padding-left:1.3rem}
+.related-posts li{margin:.7rem 0;min-width:0}
+.related-posts a{word-break:keep-all;overflow-wrap:break-word;line-height:1.7}
+/* generated-related:end */
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로 가기</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">AI</span><span>사회복지사의 AI 노하우<small>사회복지 실무와 AI</small></span></a>
+    <div class="header-links"><nav aria-label="주 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></div>
+  </header>
+  <main id="main" tabindex="-1"><div class="article-layout"><a class="back-link" href="../index.html">← 모든 글</a>
+<div class="article-kicker"><span>글 44 · psa · 발행 2026-11-11 11:11</span></div>
+<article class="article-body"><h1 id="section-1">AI에게 만족도 설문을 요약시켰더니: 숫자와 의견을 다시 확인한 기록</h1>
+<p>프로그램 만족도 설문을 정리할 때 AI가 응답 수나 비율까지 맞게 계산해 줄까요? 가상의 응답 10건을 만들고, 사람이 계산한 값과 AI의 한 번의 응답을 비교했습니다. 실제 이용자나 실제 조사 결과는 포함하지 않았습니다.</p>
+<h2 id="section-2">먼저 계산한 정답</h2>
+<p>점수는 순서대로 5, 4, 3, 5, 2, 4, 1, 5, 3, 4점입니다. 합계는 36점이고 10건의 평균은 3.6점입니다. 4점 또는 5점은 6건으로 전체의 60%입니다. 이 값은 AI에 질문하기 전에 별도 파일에 저장하고 기록을 남겼습니다.</p>
+<p>자유 의견에는 “활동 시간이 알맞았어요”, “안내문이 조금 어려웠어요”, “장소가 편했어요”, “친절하게 설명해 줬어요”가 각각 2건씩 있습니다. “일정이 너무 이른 것 같아요”와 “장소 찾기가 어려웠어요”는 각각 1건입니다.</p>
+<h2 id="section-3">AI에게 보낸 요청</h2>
+<p>CSV 파일에는 응답 번호, 점수와 가상 의견만 담았습니다. 아래는 실제 시험에 사용한 요청입니다.</p>
+<figure class="prompt-block"><figcaption>복사용 프롬프트</figcaption><pre><code>설문 결과를 요약해 주세요. survey.csv 파일만 읽고 응답 수, 점수 평균, 4점 또는 5점 비율을 계산하고 자유 의견의 주요 내용을 요약하세요. 셸은 쓰지 말고 파일은 만들지 마세요. 답변 마지막 줄에 ROUTING_DONE_survey 를 출력하세요.</code></pre></figure>
+<h2 id="section-4">응답을 원자료와 대조해 보니</h2>
+<p class="table-note" id="table-hint-1">좁은 화면에서는 표를 좌우로 밀어 확인하세요.</p>
+<div class="table-scroll" role="region" aria-label="본문 표 1" aria-describedby="table-hint-1" tabindex="0"><table><thead><tr><th scope="col">확인 항목</th><th scope="col">미리 계산한 값</th><th scope="col">AI 응답</th><th scope="col">판정</th></tr></thead><tbody><tr><td>응답 수</td><td>10건</td><td>10명</td><td>일치</td></tr><tr><td>점수 평균</td><td>3.6점</td><td>3.6점</td><td>일치</td></tr><tr><td>4점 또는 5점 비율</td><td>6건, 60%</td><td>6명, 60%</td><td>일치</td></tr><tr><td>자유 의견</td><td>동일 문장 4종은 각 2건, 나머지 2종은 각 1건</td><td>각 문장과 건수를 같은 값으로 제시</td><td>일치</td></tr></tbody></table></div>
+<p>AI는 실제로 “점수 평균: 3.6점”, “4점 또는 5점 비율: 60%”라고 답했습니다. 이 시험의 원자료에는 응답 번호가 10개 있지만, 실제 조사에서 응답 한 건이 반드시 서로 다른 한 사람을 뜻하는지는 수집 방법에 따라 확인해야 합니다. AI가 ‘명’이라고 쓴 표현도 그 전제를 확인하고 사용해야 합니다.</p>
+<h2 id="section-5">이 결과를 어떻게 읽을까</h2>
+<p>이번에는 합성 자료 10건에 대한 한 번의 응답에서 계산값이 맞았습니다. 다른 문항, 큰 표, 결측값이나 다른 질문 방식에서도 같을지는 이 시험으로 알 수 없습니다. 실제 업무에서는 먼저 비식별·공개 가능한 자료인지 확인하고, 수치와 인용문을 원자료와 대조한 뒤 결과를 사용하세요.</p>
+<p><a href="social-worker-ai-welfare-information-check.html">AI가 찾아준 복지정보 확인하기</a>와 <a href="ai-welfare-answers-test-record-2026.html">복지 제도에 대한 AI 답변 시험 기록</a>도 함께 볼 수 있습니다.</p>
+<section class="reader-invitation" aria-labelledby="reader-invitation-title"><h2 id="reader-invitation-title">궁금한 점이나 바라는 내용을 알려 주세요</h2><p>글을 읽다가 궁금한 점이 생겼거나 앞으로 다뤘으면 하는 내용이 있다면 <a href="../questions.html">질문게시판</a> 또는 <a href="mailto:tkdgh7248@naver.com">tkdgh7248@naver.com</a>으로 보내 주세요.</p><p>여러분의 질문과 제안은 다음 글을 준비하고 기존 내용을 보완하는 데 참고하겠습니다.</p></section>
+<aside class="editor-note" aria-labelledby="editor-title"><h2 id="editor-title">작성과 검수 안내</h2><p>AI의 도움을 받아 작성한 글입니다. 제도·금액·신청 조건은 본문의 기준일과 공식 출처를 함께 확인하세요.</p></aside></article><nav class="post-neighbors" aria-label="게시 순서로 읽기"><a href="welfare-blind-spot-referral-routes.html"><small>← 이전 글 · 43</small><span>걱정되는 이웃을 만났을 때: 복지위기알림과 연락할 곳</span></a></nav><section class="community" id="comments" aria-labelledby="comments-title" data-community="comments" data-issue="44">
+<div class="community-heading"><div><span class="eyebrow">함께 나누는 이야기</span><h2 id="comments-title">이 글의 댓글과 질문</h2></div><a class="community-primary" href="https://github.com/psa0426/psa0426.github.io/issues/44#new_comment_field">댓글 남기기 ↗</a></div>
+<p>읽기는 로그인 없이, 작성은 GitHub 로그인 후 가능합니다. 의견이나 수정할 내용을 남겨 주세요.</p>
+<p class="community-note">댓글은 공개됩니다. 실제 이용인의 이름·연락처·건강정보는 적지 말아 주세요.</p>
+<div class="community-toolbar"><button type="button" data-load>댓글 불러오기</button><a href="https://github.com/psa0426/psa0426.github.io/issues/44">전체 댓글방 보기 ↗</a><a href="../questions.html">다른 주제 질문하기 →</a></div>
+<p class="community-status" role="status" aria-live="polite">버튼을 누르면 공개 댓글을 불러옵니다.</p><div class="community-list" data-list></div>
+<noscript><p>댓글을 읽거나 쓰려면 위의 전체 댓글방 링크를 이용해 주세요.</p></noscript></section></div></main>
+  <footer class="site-footer"><div><p>사회복지사의 AI 노하우 · psa</p><p>실무에 쓰는 AI, 함께 확인하는 노하우.</p></div><nav aria-label="하단 메뉴"><a href="../index.html">글 목록</a><a href="../questions.html">질문방</a><a href="../about.html">소개</a><a href="../contact.html">문의</a><a href="../privacy.html">개인정보처리방침</a></nav></footer>
+<script defer src="../community.js"></script>
+<script type="module" defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "f83059c61967471b963e18b025cd2178"}'></script>
+</body>
+</html>
