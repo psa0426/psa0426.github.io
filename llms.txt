@@ -4,6 +4,7 @@
 
 ## 글 목록
 
+- [AI가 알려준 법 조문, 국가법령정보센터에서 확인하는 순서](https://psa0426.github.io/posts/law-go-kr-check-article-walkthrough.html)
 - [발달장애인 방과후활동서비스 2026: 청소년 대상과 신청 안내](https://psa0426.github.io/posts/developmental-disability-after-school-2026.html)
 - [발달장애인 주간활동서비스 2026: 성인 대상과 이용 전 확인](https://psa0426.github.io/posts/developmental-disability-day-activity-2026.html)
 - [긴급돌봄 지원 2026: 갑작스러운 돌봄 공백이 생겼을 때](https://psa0426.github.io/posts/urgent-care-support-2026.html)

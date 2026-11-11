@@ -1,6 +1,6 @@
 {
   "public": true,
-  "posts": 40,
+  "posts": 41,
   "files": [
     "404.html",
     "_headers",
@@ -36,6 +36,7 @@
     "posts/housing-benefit-apply-guide.html",
     "posts/income-recognition-worked-examples-2026.html",
     "posts/jahwal-centers-guide-2026.html",
+    "posts/law-go-kr-check-article-walkthrough.html",
     "posts/median-income-2027-changes.html",
     "posts/medical-aid-type1-type2-2026.html",
     "posts/national-employment-support-2026-guide.html",
